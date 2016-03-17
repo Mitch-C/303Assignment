@@ -7,3 +7,133 @@
 16:19:59.455	127.0.0.1:61046	admin	OK	Query executed in 497.01 ms.	497.79 ms
 16:19:59.456	127.0.0.1:61046	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.53 ms
 16:19:59.474	127.0.0.1:61046	admin	OK	Query executed in 17.96 ms.	18.56 ms
+16:23:08.301	127.0.0.1:61073	admin	REQUEST	OPEN Colenso	0.49 ms
+16:23:08.302	127.0.0.1:61073	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.32 ms
+16:23:31.488	127.0.0.1:61073	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.04 ms
+16:23:31.494	127.0.0.1:61073	admin	OK	Query executed in 5.43 ms.	6.0 ms
+16:26:16.271	127.0.0.1:61096	admin	REQUEST	OPEN Colenso	0.49 ms
+16:26:16.272	127.0.0.1:61096	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.32 ms
+16:26:20.864	127.0.0.1:61096	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.38 ms
+16:26:20.866	127.0.0.1:61096	admin	OK	Query executed in 2.46 ms.	2.7 ms
+16:26:21.905	127.0.0.1:61096	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.35 ms
+16:26:21.908	127.0.0.1:61096	admin	OK	Query executed in 2.4 ms.	2.69 ms
+16:28:04.373	127.0.0.1:61106	admin	REQUEST	OPEN Colenso	0.44 ms
+16:28:04.373	127.0.0.1:61106	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+16:28:28.130	127.0.0.1:61106	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.22 ms
+16:28:28.134	127.0.0.1:61106	admin	OK	Query executed in 3.64 ms.	4.13 ms
+16:35:13.929	127.0.0.1:61320	admin	REQUEST	OPEN Colenso	0.41 ms
+16:35:13.929	127.0.0.1:61320	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+16:35:17.260	127.0.0.1:61320	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.53 ms
+16:35:17.263	127.0.0.1:61320	admin	OK	Query executed in 2.74 ms.	3.05 ms
+16:37:09.720	127.0.0.1:61327	admin	REQUEST	OPEN Colenso	0.39 ms
+16:37:09.720	127.0.0.1:61327	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.4 ms
+16:37:32.302	127.0.0.1:61327	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.11 ms
+16:37:32.306	127.0.0.1:61327	admin	OK	Query executed in 2.81 ms.	3.15 ms
+16:38:06.286	127.0.0.1:61332	admin	REQUEST	OPEN Colenso	0.39 ms
+16:38:06.286	127.0.0.1:61332	admin	OK	Database 'Colenso' was opened in 0.07 ms.	0.3 ms
+16:38:10.437	127.0.0.1:61332	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.7 ms
+16:38:10.440	127.0.0.1:61332	admin	OK	Query executed in 2.12 ms.	2.38 ms
+16:38:43.750	127.0.0.1:61335	admin	REQUEST	OPEN Colenso	0.31 ms
+16:38:43.750	127.0.0.1:61335	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.26 ms
+16:39:04.325	127.0.0.1:61335	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.14 ms
+16:39:04.330	127.0.0.1:61335	admin	OK	Query executed in 4.98 ms.	5.52 ms
+16:39:46.755	127.0.0.1:61345	admin	REQUEST	OPEN Colenso	0.35 ms
+16:39:46.756	127.0.0.1:61345	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.3 ms
+16:40:09.276	127.0.0.1:61345	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.41 ms
+16:40:09.279	127.0.0.1:61345	admin	OK	Query executed in 2.74 ms.	3.21 ms
+16:40:50.016	127.0.0.1:61345	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.57 ms
+16:40:50.020	127.0.0.1:61345	admin	OK	Query executed in 3.74 ms.	4.25 ms
+16:42:31.594	127.0.0.1:61345	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.51 ms
+16:42:31.597	127.0.0.1:61345	admin	OK	Query executed in 2.07 ms.	2.35 ms
+16:44:00.740	127.0.0.1:61379	admin	REQUEST	OPEN Colenso	0.44 ms
+16:44:00.740	127.0.0.1:61379	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+16:44:29.737	127.0.0.1:61379	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.84 ms
+16:44:29.742	127.0.0.1:61379	admin	OK	Query executed in 4.67 ms.	5.23 ms
+16:46:05.531	127.0.0.1:61387	admin	REQUEST	OPEN Colenso	0.39 ms
+16:46:05.531	127.0.0.1:61387	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+16:46:10.296	127.0.0.1:61387	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.34 ms
+16:46:10.300	127.0.0.1:61387	admin	OK	Query executed in 2.16 ms.	3.8 ms
+16:46:48.691	127.0.0.1:61393	admin	REQUEST	OPEN Colenso	0.41 ms
+16:46:48.691	127.0.0.1:61393	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+16:47:12.291	127.0.0.1:61393	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.47 ms
+16:47:12.296	127.0.0.1:61393	admin	OK	Query executed in 4.66 ms.	5.01 ms
+16:48:07.135	127.0.0.1:61396	admin	REQUEST	OPEN Colenso	0.51 ms
+16:48:07.136	127.0.0.1:61396	admin	OK	Database 'Colenso' was opened in 0.08 ms.	0.42 ms
+16:48:27.742	127.0.0.1:61396	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.83 ms
+16:48:27.748	127.0.0.1:61396	admin	OK	Query executed in 5.36 ms.	6.03 ms
+16:49:27.286	127.0.0.1:61404	admin	REQUEST	OPEN Colenso	0.56 ms
+16:49:27.286	127.0.0.1:61404	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+16:49:48.585	127.0.0.1:61404	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.85 ms
+16:49:48.592	127.0.0.1:61404	admin	OK	Query executed in 6.02 ms.	6.62 ms
+16:51:18.438	127.0.0.1:61431	admin	REQUEST	OPEN Colenso	0.45 ms
+16:51:18.438	127.0.0.1:61431	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.29 ms
+16:51:39.999	127.0.0.1:61431	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.78 ms
+16:51:40.004	127.0.0.1:61431	admin	OK	Query executed in 4.73 ms.	5.32 ms
+16:52:57.268	127.0.0.1:61433	admin	REQUEST	OPEN Colenso	0.43 ms
+16:52:57.268	127.0.0.1:61433	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.25 ms
+16:53:18.976	127.0.0.1:61433	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.63 ms
+16:53:18.982	127.0.0.1:61433	admin	OK	Query executed in 4.72 ms.	5.23 ms
+16:54:24.573	127.0.0.1:61437	admin	REQUEST	OPEN Colenso	0.36 ms
+16:54:24.574	127.0.0.1:61437	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+16:54:48.355	127.0.0.1:61437	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.68 ms
+16:54:48.361	127.0.0.1:61437	admin	OK	Query executed in 5.41 ms.	6.03 ms
+16:56:03.257	127.0.0.1:61447	admin	REQUEST	OPEN Colenso	0.35 ms
+16:56:03.257	127.0.0.1:61447	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.29 ms
+16:56:24.578	127.0.0.1:61447	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.85 ms
+16:56:24.583	127.0.0.1:61447	admin	OK	Query executed in 4.45 ms.	4.96 ms
+16:57:33.313	127.0.0.1:61454	admin	REQUEST	OPEN Colenso	0.35 ms
+16:57:33.314	127.0.0.1:61454	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.31 ms
+16:57:36.828	127.0.0.1:61454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.35 ms
+16:57:36.830	127.0.0.1:61454	admin	OK	Query executed in 1.76 ms.	2.06 ms
+16:58:25.942	127.0.0.1:61454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.51 ms
+16:58:25.946	127.0.0.1:61454	admin	OK	Query executed in 4.11 ms.	4.5 ms
+16:58:27.143	127.0.0.1:61454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.4 ms
+16:58:27.146	127.0.0.1:61454	admin	OK	Query executed in 3.15 ms.	3.57 ms
+16:58:27.351	127.0.0.1:61454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.38 ms
+16:58:27.355	127.0.0.1:61454	admin	OK	Query executed in 4.38 ms.	4.7 ms
+16:58:39.070	127.0.0.1:61454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.34 ms
+16:58:39.072	127.0.0.1:61454	admin	OK	Query executed in 2.34 ms.	2.73 ms
+16:58:45.036	127.0.0.1:61454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.4 ms
+16:58:45.040	127.0.0.1:61454	admin	OK	Query executed in 3.06 ms.	3.43 ms
+16:58:53.070	127.0.0.1:61454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.4 ms
+16:58:53.073	127.0.0.1:61454	admin	OK	Query executed in 2.49 ms.	2.88 ms
+16:59:11.398	127.0.0.1:61454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.49 ms
+16:59:11.401	127.0.0.1:61454	admin	OK	Query executed in 3.12 ms.	3.61 ms
+17:00:36.417	127.0.0.1:61476	admin	REQUEST	OPEN Colenso	0.44 ms
+17:00:36.417	127.0.0.1:61476	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.28 ms
+17:00:57.622	127.0.0.1:61476	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.42 ms
+17:00:57.625	127.0.0.1:61476	admin	OK	Query executed in 2.11 ms.	2.45 ms
+17:01:34.835	127.0.0.1:61476	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.6 ms
+17:01:34.838	127.0.0.1:61476	admin	OK	Query executed in 2.36 ms.	2.78 ms
+17:02:05.600	127.0.0.1:61498	admin	REQUEST	OPEN Colenso	0.47 ms
+17:02:05.600	127.0.0.1:61498	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.33 ms
+17:02:20.977	127.0.0.1:61498	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.32 ms
+17:02:20.979	127.0.0.1:61498	admin	OK	Query executed in 1.84 ms.	2.08 ms
+17:03:07.138	127.0.0.1:61500	admin	REQUEST	OPEN Colenso	0.36 ms
+17:03:07.139	127.0.0.1:61500	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.22 ms
+17:03:28.781	127.0.0.1:61500	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.35 ms
+17:03:28.784	127.0.0.1:61500	admin	OK	Query executed in 1.89 ms.	2.18 ms
+17:48:51.559	127.0.0.1:61871	admin	REQUEST	OPEN Colenso	0.49 ms
+17:48:51.559	127.0.0.1:61871	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.44 ms
+17:48:57.634	127.0.0.1:61871	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.41 ms
+17:48:57.636	127.0.0.1:61871	admin	OK	Query executed in 1.86 ms.	2.14 ms
+17:49:50.892	127.0.0.1:61876	admin	REQUEST	OPEN Colenso	0.46 ms
+17:49:50.892	127.0.0.1:61876	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.28 ms
+17:49:57.699	127.0.0.1:61876	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.35 ms
+17:49:57.701	127.0.0.1:61876	admin	OK	Query executed in 1.75 ms.	2.01 ms
+17:51:38.274	127.0.0.1:61882	admin	REQUEST	OPEN Colenso	0.44 ms
+17:51:38.275	127.0.0.1:61882	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.26 ms
+17:51:58.575	127.0.0.1:61882	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.04 ms
+17:51:58.652	127.0.0.1:61882	admin	OK	Query executed in 5.26 ms.	77.43 ms
+17:53:13.111	127.0.0.1:61884	admin	REQUEST	OPEN Colenso	0.5 ms
+17:53:13.112	127.0.0.1:61884	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.38 ms
+17:53:25.579	127.0.0.1:61884	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.46 ms
+17:53:25.583	127.0.0.1:61884	admin	OK	Query executed in 2.74 ms.	3.09 ms
+17:54:03.033	127.0.0.1:61884	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.52 ms
+17:54:03.036	127.0.0.1:61884	admin	OK	Query executed in 1.95 ms.	2.24 ms
+17:54:55.629	127.0.0.1:61894	admin	REQUEST	OPEN Colenso	0.3 ms
+17:54:55.629	127.0.0.1:61894	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.19 ms
+17:55:19.821	127.0.0.1:61894	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.44 ms
+17:55:19.824	127.0.0.1:61894	admin	OK	Query executed in 2.32 ms.	2.65 ms
+18:02:48.963	127.0.0.1:61894	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.88 ms
+18:02:48.966	127.0.0.1:61894	admin	OK	Query executed in 2.37 ms.	2.81 ms

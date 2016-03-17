@@ -9,7 +9,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-
+var query = "";
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -24,13 +24,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/query', users);
 
 app.post('/query', function (req, res) {
   console.log('Username: ' + req.body.username);
-  res.send('Username: ' + req.body.username);
-// instead of printing on the page i want to request from the database and return the query 
- 
-});
+res.render('index', { title: 'Colenso Project', valueofquery : req.body.username});// instead of printing on the page i want to request from the database and return the query 
+ query = req.body.username;
+ app.locals.query = req.body.username;
+ });
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
