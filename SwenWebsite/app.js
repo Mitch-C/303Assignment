@@ -25,6 +25,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
+app.post('/query', function (req, res) {
+  console.log('Username: ' + req.body.username);
+  res.send('Username: ' + req.body.username);
+// instead of printing on the page i want to request from the database and return the query 
+ 
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');

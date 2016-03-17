@@ -1,0 +1,9 @@
+16:11:17.918	SERVER	admin	OK	Server was started (port: 1984).
+16:14:18.356	127.0.0.1:61028	admin	REQUEST	OPEN Colenso	3.91 ms
+16:14:18.358	127.0.0.1:61028	admin	OK	Database 'Colenso' was opened in 0.46 ms.	1.41 ms
+16:19:55.018	127.0.0.1:61046	admin	REQUEST	OPEN Colenso	0.6 ms
+16:19:55.019	127.0.0.1:61046	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.43 ms
+16:19:58.958	127.0.0.1:61046	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	57.76 ms
+16:19:59.455	127.0.0.1:61046	admin	OK	Query executed in 497.01 ms.	497.79 ms
+16:19:59.456	127.0.0.1:61046	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.53 ms
+16:19:59.474	127.0.0.1:61046	admin	OK	Query executed in 17.96 ms.	18.56 ms
