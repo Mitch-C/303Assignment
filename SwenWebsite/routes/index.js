@@ -3,12 +3,8 @@
 var express = require('express');
 var router = express.Router();
 var basex = require('basex');
-var bodyParser     =        require("body-parser");
 var client = new basex.Session("127.0.0.1", 1984, "admin", "admin");
-var app = express();
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-//app.use(express.bodyParser());
+
 client.execute("OPEN Colenso");
 router.get("/",function(req,res){
 client.execute("XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0';" +
@@ -16,7 +12,7 @@ client.execute("XQUERY declare default element namespace 'http://www.tei-c.org/n
 function (error, result) {
 if(error){ console.error(error);}
 else {
-res.render('index', { title: 'Colenso Project', place: result.result });
+res.render('index', { title: 'ECS Video Rental', place: result.result });
 }
 }
 );
@@ -26,8 +22,9 @@ res.render('index', { title: 'Colenso Project', place: result.result });
 //router.get('/', function(req, res, next) {
   //res.render('index', { title: 'Express' });
 //});
-
+//try connecting to server
 console.log(1);
+
 
 
 module.exports = router;
