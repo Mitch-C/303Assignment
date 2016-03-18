@@ -3,7 +3,7 @@ extends ../node_modules/jade-bootstrap/_bootstrap
 block body
  +navbar("Colenso Project", "dropdown_menu")
   +nav_item("/", "active") Home
-  +nav_item("/list") Stock
+  +nav_item("/search") Search
  form(method='post', action='/query')
   input(type='text', name='username')
   |     

@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var search = require('./routes/search');
 
 var app = express();
 var query = "";
@@ -25,12 +26,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/query', users);
+app.use('/search',search);
 
 app.post('/query', function (req, res) {
   console.log('Username: ' + req.body.username);
 res.render('index', { title: 'Colenso Project', valueofquery : req.body.username});// instead of printing on the page i want to request from the database and return the query 
  query = req.body.username;
  app.locals.query = req.body.username;
+ res.send('search');
  });
 
 // catch 404 and forward to error handler
