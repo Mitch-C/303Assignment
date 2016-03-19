@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 });
 
 //retrieve users search 
-router.get('/search',function(req,res,next){
+router.get('/query',function(req,res,next){
 		console.log('why is this not being called?');
 		res.render('search', { title: 'Colenso Project - retrieved query',valueofquery : 'changed' });
 	
