@@ -14,8 +14,8 @@ router.get('/', function(req, res, next) {
 
 //retrieve users search 
 router.get('/query',function(req,res,next){
-		console.log('why is this not being called?');
-		res.render('search', { title: 'Colenso Project - retrieved query',valueofquery : 'changed' });
+		
+		res.render('search', { title: 'Colenso Project',valueofquery : req.query.query });
 	
 
 });
