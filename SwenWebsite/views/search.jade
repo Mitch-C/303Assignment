@@ -7,8 +7,8 @@ block body
  
  .container
  h1= 'Enter your required search'
- form(method='post', action='/search')
-  input(type='text', name='username')
+ form(method='get', action='/search')
+  input(type='text', name='query')
   |     
   input(type='submit')
   

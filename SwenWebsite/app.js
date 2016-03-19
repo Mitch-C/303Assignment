@@ -28,13 +28,15 @@ app.use('/', routes);
 //app.use('/query', users);
 app.use('/search',search);
 
-app.post('/search', function (req, res) {
+/*app.post('/search', function (req, res) {
   console.log('Username: ' + req.body.username);
 res.render('search', { title: 'Colenso Project', valueofquery : req.body.username});// instead of printing on the page i want to request from the database and return the query 
  query = req.body.username;
  app.locals.query = req.body.username;
  res.send('search');
  });
+
+*/
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
