@@ -14,14 +14,14 @@ client.execute("XQUERY <result>{" + newquery + "}<lresullt>",
     cb(err);
     return;
     }
-    console.log(data.result);
+    console.log( "print value of query " + data.result);
     // var $ = cheerio.load(data.result);
     // var list = [];
     // $('li').each(function(i, elem) {
     // list[i] = { title: $(this).text().trim(),
     //   path: $(this).attr('path')
-    };
-    });
+    //};
+    //});
     cb(undefined, list);
     });
 };

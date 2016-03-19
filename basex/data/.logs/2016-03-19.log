@@ -121,3 +121,17 @@
 16:25:35.134	127.0.0.1:54734	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	208.38 ms
 16:25:43.529	127.0.0.1:54734	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text'a'] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	102.57 ms
 16:25:43.645	127.0.0.1:54734	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	118.29 ms
+17:57:38.296	127.0.0.1:55156	admin	REQUEST	OPEN Colenso	2345.71 ms
+17:57:38.804	127.0.0.1:55156	admin	OK	Database 'Colenso' was opened in 206.63 ms.	279.9 ms
+17:57:39.026	127.0.0.1:55156	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	198.68 ms
+17:57:42.390	127.0.0.1:55156	admin	OK	Query executed in 3350.61 ms.	3364.08 ms
+17:57:56.156	127.0.0.1:55157	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text'asd'] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	370.66 ms
+17:58:03.731	127.0.0.1:55157	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	7558.17 ms
+17:58:42.390	127.0.0.1:55157	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text'asdfsdaf'] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	440.83 ms
+17:58:43.199	127.0.0.1:55157	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	868.93 ms
+17:59:29.876	127.0.0.1:55163	admin	REQUEST	OPEN Colenso	8.82 ms
+17:59:29.878	127.0.0.1:55163	admin	OK	Database 'Colenso' was opened in 0.49 ms.	1.41 ms
+17:59:32.915	127.0.0.1:55163	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	109.85 ms
+17:59:33.166	127.0.0.1:55163	admin	OK	Query executed in 249.33 ms.	252.67 ms
+17:59:37.506	127.0.0.1:55164	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text'asdf'] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	159.19 ms
+17:59:37.805	127.0.0.1:55164	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	297.17 ms
