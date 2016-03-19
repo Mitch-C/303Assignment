@@ -4,11 +4,7 @@ block body
  +navbar("Colenso Project", "dropdown_menu")
   +nav_item("/", "active") Home
   +nav_item("/search") Search
- form(method='post', action='/query')
-  input(type='text', name='username')
-  |     
-  input(type='submit')
- .container
+  .container
   h1= title
   .container
  p| Welcome to #{title}. We have an excellent collection of videos in stock for you.

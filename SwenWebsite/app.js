@@ -24,13 +24,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
-app.use('/query', users);
+//app.use('/users', users);
+//app.use('/query', users);
 app.use('/search',search);
 
-app.post('/query', function (req, res) {
+app.post('/search', function (req, res) {
   console.log('Username: ' + req.body.username);
-res.render('index', { title: 'Colenso Project', valueofquery : req.body.username});// instead of printing on the page i want to request from the database and return the query 
+res.render('search', { title: 'Colenso Project', valueofquery : req.body.username});// instead of printing on the page i want to request from the database and return the query 
  query = req.body.username;
  app.locals.query = req.body.username;
  res.send('search');

@@ -39,3 +39,21 @@
 19:22:26.643	127.0.0.1:64982	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.28 ms
 19:22:29.626	127.0.0.1:64982	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.39 ms
 19:22:29.629	127.0.0.1:64982	admin	OK	Query executed in 2.21 ms.	2.48 ms
+19:30:00.785	127.0.0.1:65188	admin	REQUEST	OPEN Colenso	0.4 ms
+19:30:00.785	127.0.0.1:65188	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.26 ms
+19:30:03.363	127.0.0.1:65188	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.46 ms
+19:30:03.368	127.0.0.1:65188	admin	OK	Query executed in 4.31 ms.	4.72 ms
+19:33:20.287	127.0.0.1:65326	admin	REQUEST	OPEN Colenso	0.4 ms
+19:33:20.287	127.0.0.1:65326	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.23 ms
+19:33:24.087	127.0.0.1:65326	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.37 ms
+19:33:24.089	127.0.0.1:65326	admin	OK	Query executed in 2.06 ms.	2.33 ms
+19:34:34.418	127.0.0.1:65343	admin	REQUEST	OPEN Colenso	0.47 ms
+19:34:34.419	127.0.0.1:65343	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.27 ms
+19:34:38.891	127.0.0.1:65343	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.41 ms
+19:34:38.895	127.0.0.1:65343	admin	OK	Query executed in 3.43 ms.	3.79 ms
+19:34:39.838	127.0.0.1:65343	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.33 ms
+19:34:39.843	127.0.0.1:65343	admin	OK	Query executed in 4.64 ms.	4.98 ms
+19:35:49.869	127.0.0.1:65368	admin	REQUEST	OPEN Colenso	0.46 ms
+19:35:49.869	127.0.0.1:65368	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.24 ms
+19:36:11.477	127.0.0.1:65368	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.45 ms
+19:36:11.482	127.0.0.1:65368	admin	OK	Query executed in 4.39 ms.	4.78 ms

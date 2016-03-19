@@ -2,14 +2,16 @@ extends ../node_modules/jade-bootstrap/_bootstrap
 
 block body
  +navbar("Colenso Project", "dropdown_menu")
-  +nav_item("/", "active") Home
-  +nav_item("/list") Stock
- form(method='post', action='/query')
+  +nav_item("/") Home
+  +nav_item("/search", "active") Search
+ 
+ .container
+ h1= 'Enter your required search'
+ form(method='post', action='/search')
   input(type='text', name='username')
   |     
   input(type='submit')
- .container
-  h1= title
+  
   .container
  p| Welcome to #{title}. We have an excellent collection of videos in stock for you.
  | We are based in !{place}.
