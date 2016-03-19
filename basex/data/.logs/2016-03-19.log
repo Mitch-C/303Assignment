@@ -103,3 +103,21 @@
 14:11:52.481	127.0.0.1:53425	admin	OK	Database 'Colenso' was opened in 0.56 ms.	0.92 ms
 14:12:15.885	127.0.0.1:53425	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	68.1 ms
 14:12:15.902	127.0.0.1:53425	admin	OK	Query executed in 16.68 ms.	17.8 ms
+16:22:37.372	127.0.0.1:54718	admin	REQUEST	OPEN Colenso	57.21 ms
+16:22:37.435	127.0.0.1:54718	admin	OK	Database 'Colenso' was opened in 0.44 ms.	23.86 ms
+16:22:40.807	127.0.0.1:54718	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	57.5 ms
+16:22:40.932	127.0.0.1:54718	admin	OK	Query executed in 116.54 ms.	125.97 ms
+16:24:28.559	127.0.0.1:54733	admin	REQUEST	OPEN Colenso	3.74 ms
+16:24:28.559	127.0.0.1:54733	admin	OK	Database 'Colenso' was opened in 3.7 ms.	4.13 ms
+16:24:51.567	127.0.0.1:54733	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	80.27 ms
+16:24:51.723	127.0.0.1:54733	admin	OK	Query executed in 154.92 ms.	156.97 ms
+16:24:59.833	127.0.0.1:54734	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text'asfd'] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	55.1 ms
+16:25:08.171	127.0.0.1:54734	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	8338.23 ms
+16:25:28.166	127.0.0.1:54734	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text'petoni '] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	59.1 ms
+16:25:28.438	127.0.0.1:54734	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	270.91 ms
+16:25:29.926	127.0.0.1:54734	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text''] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	1.87 ms
+16:25:30.027	127.0.0.1:54734	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	100.94 ms
+16:25:34.905	127.0.0.1:54734	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text'petoni'] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	43.4 ms
+16:25:35.134	127.0.0.1:54734	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	208.38 ms
+16:25:43.529	127.0.0.1:54734	admin	REQUEST	XQUERY <result>{for $x in collection('colenso') where $x//*text[descendent::text() contains text'a'] return <li path='{ db:path($x) }'>{ $x//*:title }</li>}<lresullt>	102.57 ms
+16:25:43.645	127.0.0.1:54734	admin	ERROR	Stopped at ., 2/12: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	118.29 ms
