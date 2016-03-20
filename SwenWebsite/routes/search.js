@@ -14,15 +14,17 @@ router.get('/', function(req, res, next) {
 
 //retrieve users search 
 router.get('/query',function(req,res,next){
-		basex.search(req.query.query ,function(err,data){
-			valueq = _.map(data,function(ele){
-				return {
-					url: '/search/' + ele.path.replace(/\.xml$/,'view')//,title = ele.title
-				};
-			});
-			    
-        
-		
+	//Perform the basex search and render the result 
+	basex.search(req.query.query ,function(err,data){
+		//use underscore to produce a new array of values
+		//mapping each value in the list through a 
+		//transformation adding the url and the title
+		valueq = _.map(data,function(val){
+		return {
+			url: '/search/' + val.path,title: val.title
+			};
+		});
+		//render page title and results to the search page
 		res.render('search', { title: 'Colenso Project',valueofquery : valueq });
 	});
 });

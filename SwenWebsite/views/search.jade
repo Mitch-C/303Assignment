@@ -1,21 +1,31 @@
-extends ../node_modules/jade-bootstrap/_bootstrap
+extends ../node_modules/jade-bootstrap/layouts/blog
 
 block body
  +navbar("Colenso Project", "dropdown_menu")
-  +nav_item("/") Home
-  +nav_item("/search", "active") Search
+  +nav_item("/") Home  
+  +nav_item_dropdown("/search","active")(label = "Search")
+   +nav_item("/search","active") Search
+   +nav_item("#") Query
+   +nav_item("#") Xquery
  
  .container
- h1= 'Enter your required search'
- form(method='get', action='/search/query')
-  input(type='text', name='query')
-  |     
-  input(type='submit')
+   h1= 'Enter your required search'
+   form(method='get', action='/search/query')
+    input(type='text', name='query')
+    |     
+    input(type='submit')
   
   .container
- p| Welcome to #{title}. We have an excellent collection of videos in stock for you.
- 
+   p| Welcome to #{title}. Please enter a search to begi
+ .container
+  h2 Search Results
+  .result
+   if valueofquery  && valueofquery .length > 0
+   
+    each val in valueofquery
+     +list-group-item(val.url)          
+       span  #{val.title}
+  
 
 
-
- asdfdsafsd dsfasdf Results: #{valueofquery}
+  f Results: #{valueofquery}
