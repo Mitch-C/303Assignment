@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var search = require('./routes/search');
+var xquery = require('./routes/xquery');
+var xpath = require('./routes/xpath');
 
 var app = express();
 var query = "";
@@ -24,9 +26,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-//app.use('/users', users);
-//app.use('/query', users);
 app.use('/search',search);
+app.use('/xpath',xpath);
+app.use('/xquery',xquery);
 
 /*app.post('/search', function (req, res) {
   console.log('Username: ' + req.body.username);
