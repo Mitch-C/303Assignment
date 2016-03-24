@@ -181,3 +181,131 @@
 15:18:23.529	127.0.0.1:53051	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.3 ms
 15:18:43.436	127.0.0.1:53051	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.53 ms
 15:18:43.441	127.0.0.1:53051	admin	OK	Query executed in 3.87 ms.	4.27 ms
+15:20:02.066	127.0.0.1:53052	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.89 ms
+15:20:02.595	127.0.0.1:53052	admin	OK	Query executed in 528.53 ms.	528.89 ms
+15:21:52.500	127.0.0.1:53083	admin	REQUEST	OPEN Colenso	0.35 ms
+15:21:52.500	127.0.0.1:53083	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+15:25:14.856	127.0.0.1:53083	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.7 ms
+15:25:14.860	127.0.0.1:53083	admin	OK	Query executed in 3.25 ms.	3.65 ms
+15:25:18.615	127.0.0.1:53084	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.36 ms
+15:25:19.175	127.0.0.1:53084	admin	OK	Query executed in 560.09 ms.	560.6 ms
+15:27:24.940	127.0.0.1:53169	admin	REQUEST	OPEN Colenso	1.12 ms
+15:27:24.941	127.0.0.1:53169	admin	OK	Database 'Colenso' was opened in 0.12 ms.	0.72 ms
+15:27:47.240	127.0.0.1:53169	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.57 ms
+15:27:47.243	127.0.0.1:53169	admin	OK	Query executed in 3.29 ms.	3.65 ms
+15:28:18.616	127.0.0.1:53170	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.5 ms
+15:28:19.173	127.0.0.1:53170	admin	OK	Query executed in 556.45 ms.	556.93 ms
+15:30:02.505	127.0.0.1:53226	admin	REQUEST	OPEN Colenso	0.4 ms
+15:30:02.505	127.0.0.1:53226	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.24 ms
+15:30:55.424	127.0.0.1:53226	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.5 ms
+15:30:55.426	127.0.0.1:53226	admin	OK	Query executed in 2.3 ms.	2.62 ms
+15:31:05.960	127.0.0.1:53227	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.66 ms
+15:31:06.634	127.0.0.1:53227	admin	OK	Query executed in 672.67 ms.	673.29 ms
+15:33:01.089	127.0.0.1:53273	admin	REQUEST	OPEN Colenso	0.41 ms
+15:33:01.090	127.0.0.1:53273	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+15:34:02.731	127.0.0.1:53273	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.0 ms
+15:34:02.739	127.0.0.1:53273	admin	OK	Query executed in 6.91 ms.	7.53 ms
+15:34:22.509	127.0.0.1:53274	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.39 ms
+15:34:23.059	127.0.0.1:53274	admin	OK	Query executed in 548.92 ms.	549.23 ms
+15:37:12.413	127.0.0.1:53274	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.65 ms
+15:37:12.976	127.0.0.1:53274	admin	OK	Query executed in 562.39 ms.	562.85 ms
+15:38:09.187	127.0.0.1:53274	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.72 ms
+15:38:09.711	127.0.0.1:53274	admin	OK	Query executed in 523.26 ms.	523.64 ms
+15:38:16.907	127.0.0.1:53374	admin	REQUEST	OPEN Colenso	0.32 ms
+15:38:16.908	127.0.0.1:53374	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.23 ms
+15:40:22.863	127.0.0.1:53374	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.49 ms
+15:40:22.867	127.0.0.1:53374	admin	OK	Query executed in 3.41 ms.	3.82 ms
+15:40:23.916	127.0.0.1:53374	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.31 ms
+15:40:23.919	127.0.0.1:53374	admin	OK	Query executed in 2.69 ms.	2.97 ms
+15:41:24.816	127.0.0.1:53375	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.47 ms
+15:41:25.364	127.0.0.1:53375	admin	OK	Query executed in 546.94 ms.	547.28 ms
+15:41:54.788	127.0.0.1:53474	admin	REQUEST	OPEN Colenso	0.42 ms
+15:41:54.788	127.0.0.1:53474	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.32 ms
+15:42:14.776	127.0.0.1:53474	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.38 ms
+15:42:14.778	127.0.0.1:53474	admin	OK	Query executed in 2.22 ms.	2.49 ms
+15:42:20.385	127.0.0.1:53475	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 't'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.34 ms
+15:42:20.974	127.0.0.1:53475	admin	OK	Query executed in 589.3 ms.	589.63 ms
+15:43:16.119	127.0.0.1:53481	admin	REQUEST	OPEN Colenso	0.44 ms
+15:43:16.119	127.0.0.1:53481	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.26 ms
+15:43:55.324	127.0.0.1:53481	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.04 ms
+15:43:55.330	127.0.0.1:53481	admin	OK	Query executed in 6.04 ms.	6.69 ms
+15:44:00.583	127.0.0.1:53482	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.85 ms
+15:44:01.145	127.0.0.1:53482	admin	OK	Query executed in 561.54 ms.	562.08 ms
+15:47:30.716	127.0.0.1:53481	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.51 ms
+15:47:30.719	127.0.0.1:53481	admin	OK	Query executed in 2.8 ms.	3.16 ms
+15:47:33.701	127.0.0.1:53482	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 't'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.44 ms
+15:47:34.482	127.0.0.1:53482	admin	OK	Query executed in 781.41 ms.	781.85 ms
+15:48:41.131	127.0.0.1:53580	admin	REQUEST	OPEN Colenso	0.43 ms
+15:48:41.131	127.0.0.1:53580	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.26 ms
+15:49:01.960	127.0.0.1:53580	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.56 ms
+15:49:01.964	127.0.0.1:53580	admin	OK	Query executed in 3.39 ms.	3.81 ms
+15:49:32.221	127.0.0.1:53581	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.98 ms
+15:49:32.783	127.0.0.1:53581	admin	OK	Query executed in 560.82 ms.	561.25 ms
+15:54:56.519	127.0.0.1:53677	admin	REQUEST	OPEN Colenso	0.46 ms
+15:54:56.520	127.0.0.1:53677	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+15:55:00.147	127.0.0.1:53677	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.28 ms
+15:55:00.150	127.0.0.1:53677	admin	OK	Query executed in 1.95 ms.	2.23 ms
+16:01:36.396	127.0.0.1:53678	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.6 ms
+16:01:36.948	127.0.0.1:53678	admin	OK	Query executed in 551.92 ms.	552.37 ms
+16:06:16.077	127.0.0.1:53846	admin	REQUEST	OPEN Colenso	0.51 ms
+16:06:16.078	127.0.0.1:53846	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.47 ms
+16:06:40.397	127.0.0.1:53846	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.66 ms
+16:06:40.401	127.0.0.1:53846	admin	OK	Query executed in 4.18 ms.	4.88 ms
+16:07:09.158	127.0.0.1:53847	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.65 ms
+16:07:09.757	127.0.0.1:53847	admin	OK	Query executed in 598.46 ms.	598.97 ms
+16:08:44.568	127.0.0.1:53877	admin	REQUEST	OPEN Colenso	0.5 ms
+16:08:44.568	127.0.0.1:53877	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+16:09:08.042	127.0.0.1:53877	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.53 ms
+16:09:08.045	127.0.0.1:53877	admin	OK	Query executed in 2.48 ms.	2.82 ms
+16:10:24.280	127.0.0.1:53878	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.42 ms
+16:10:24.844	127.0.0.1:53878	admin	OK	Query executed in 563.44 ms.	563.79 ms
+16:20:32.801	127.0.0.1:54093	admin	REQUEST	OPEN Colenso	0.34 ms
+16:20:32.801	127.0.0.1:54093	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.26 ms
+16:20:45.934	127.0.0.1:54093	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.37 ms
+16:20:45.936	127.0.0.1:54093	admin	OK	Query executed in 2.27 ms.	2.63 ms
+16:20:51.874	127.0.0.1:54094	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.37 ms
+16:20:52.454	127.0.0.1:54094	admin	OK	Query executed in 579.6 ms.	579.91 ms
+16:22:09.708	127.0.0.1:54104	admin	REQUEST	OPEN Colenso	0.32 ms
+16:22:09.708	127.0.0.1:54104	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.2 ms
+16:22:58.505	127.0.0.1:54104	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.62 ms
+16:22:58.508	127.0.0.1:54104	admin	OK	Query executed in 2.81 ms.	3.29 ms
+16:23:05.363	127.0.0.1:54105	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.69 ms
+16:23:06.055	127.0.0.1:54105	admin	OK	Query executed in 691.41 ms.	691.78 ms
+16:23:36.209	127.0.0.1:54111	admin	REQUEST	OPEN Colenso	0.29 ms
+16:23:36.210	127.0.0.1:54111	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+16:24:00.365	127.0.0.1:54111	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	20.45 ms
+16:24:00.388	127.0.0.1:54111	admin	OK	Query executed in 2.19 ms.	2.49 ms
+16:24:05.556	127.0.0.1:54112	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text ''] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.46 ms
+16:24:05.985	127.0.0.1:54112	admin	OK	Query executed in 429.29 ms.	429.66 ms
+16:24:09.028	127.0.0.1:54112	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 's'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.74 ms
+16:24:09.802	127.0.0.1:54112	admin	OK	Query executed in 773.36 ms.	773.64 ms
+16:25:49.026	127.0.0.1:54118	admin	REQUEST	OPEN Colenso	0.38 ms
+16:25:49.027	127.0.0.1:54118	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.26 ms
+16:26:28.491	127.0.0.1:54118	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.44 ms
+16:26:28.494	127.0.0.1:54118	admin	OK	Query executed in 2.31 ms.	2.58 ms
+16:26:51.938	127.0.0.1:54119	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.52 ms
+16:26:52.492	127.0.0.1:54119	admin	OK	Query executed in 554.88 ms.	555.28 ms
+16:27:14.436	127.0.0.1:54148	admin	REQUEST	OPEN Colenso	0.4 ms
+16:27:14.458	127.0.0.1:54148	admin	OK	Database 'Colenso' was opened in 0.06 ms.	22.04 ms
+16:27:35.380	127.0.0.1:54148	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.62 ms
+16:27:35.383	127.0.0.1:54148	admin	OK	Query executed in 2.5 ms.	2.86 ms
+16:27:57.364	127.0.0.1:54149	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.37 ms
+16:27:57.935	127.0.0.1:54149	admin	OK	Query executed in 570.14 ms.	570.5 ms
+16:30:07.488	127.0.0.1:54162	admin	REQUEST	OPEN Colenso	0.36 ms
+16:30:07.488	127.0.0.1:54162	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.26 ms
+16:30:11.131	127.0.0.1:54162	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.28 ms
+16:30:11.134	127.0.0.1:54162	admin	OK	Query executed in 2.52 ms.	3.03 ms
+16:31:08.922	127.0.0.1:54163	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.55 ms
+16:31:09.489	127.0.0.1:54163	admin	OK	Query executed in 566.49 ms.	566.86 ms
+16:31:38.571	127.0.0.1:54197	admin	REQUEST	OPEN Colenso	0.25 ms
+16:31:38.571	127.0.0.1:54197	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.2 ms
+16:31:41.271	127.0.0.1:54197	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.32 ms
+16:31:41.273	127.0.0.1:54197	admin	OK	Query executed in 1.93 ms.	2.23 ms
+16:31:46.700	127.0.0.1:54198	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.85 ms
+16:31:47.236	127.0.0.1:54198	admin	OK	Query executed in 536.3 ms.	536.62 ms
+16:32:41.267	127.0.0.1:54205	admin	REQUEST	OPEN Colenso	0.4 ms
+16:32:41.267	127.0.0.1:54205	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.22 ms
+16:33:12.193	127.0.0.1:54205	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.44 ms
+16:33:12.196	127.0.0.1:54205	admin	OK	Query executed in 2.68 ms.	2.98 ms
+16:33:17.917	127.0.0.1:54206	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	94.99 ms
+16:33:18.614	127.0.0.1:54206	admin	OK	Query executed in 697.04 ms.	697.35 ms

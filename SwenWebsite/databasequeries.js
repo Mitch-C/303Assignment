@@ -18,7 +18,7 @@ var myquery =
     return;
     }
 
-    console.log( 'print value of query'  + data.result);
+   // console.log( 'print value of query'  + data.result);
     var cher = cheerio.load(data.result);
     var querylist = [];
     cher('li').each(function(i, elem) {

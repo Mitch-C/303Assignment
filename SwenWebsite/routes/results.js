@@ -11,10 +11,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/*', function(req, res, next) {	
-	console.log("req " + req.title);
-	//console.log("res " + res);
+	console.log("req " + res.title);
+	console.log("res " + res.title);
 	//console.log("next " + next);
-  res.render('results', { title: 'Colenso Project' });
+	query = req;
+  res.render('results', { title: 'Colenso Project' , query:query});
 });
 
 

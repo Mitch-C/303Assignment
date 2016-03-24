@@ -27,7 +27,7 @@ router.get('/query',function(req,res,next){
 		//});
 		//render page title and results to the search page
 		res.render('search', { title: 'Colenso Project',valueofquery : valueq });
-		console.log('value url : ' +valueq.path);
+		//console.log('value url : ' +valueq.path);
 	});
 });
 

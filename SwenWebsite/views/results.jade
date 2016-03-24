@@ -3,10 +3,19 @@ extends ../node_modules/jade-bootstrap/layouts/blog
 block body
  +navbar("Colenso Project", "dropdown_menu")
   +nav_item("/") Home  
-  +nav_item("/reuslts","active") Results
+  +nav_item("/results","active") Results
   +nav_item_dropdown("/search","active")(label = "Search")
    +nav_item("/search") Search
    +nav_item("/xquery") XQuery
    +nav_item("/xpath") XPath
 
- 
+ block content
+   .container
+    h1 Results
+     if query && query.length > 0
+      +list-group-custom()
+      each item in query      
+       span #{item.title}
+        
+
+ h1 is this displaying ? #{query.prop1}
