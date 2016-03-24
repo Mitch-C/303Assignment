@@ -10,6 +10,7 @@ var users = require('./routes/users');
 var search = require('./routes/search');
 var xquery = require('./routes/xquery');
 var xpath = require('./routes/xpath');
+var results = require('./routes/results');
 
 var app = express();
 var query = "";
@@ -29,6 +30,7 @@ app.use('/', routes);
 app.use('/search',search);
 app.use('/xpath',xpath);
 app.use('/xquery',xquery);
+app.use('/results',results);
 
 /*app.post('/search', function (req, res) {
   console.log('Username: ' + req.body.username);

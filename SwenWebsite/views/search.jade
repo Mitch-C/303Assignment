@@ -16,16 +16,17 @@ block body
     input(type='submit')
   
   .container
-   p| Welcome to #{title}. Please enter a search to begi
+   p| Welcome to #{title}. Please enter a search to begin
  .container
   h2 Search Results
   .result
    if valueofquery  && valueofquery .length > 0
-   
+    
     each val in valueofquery
-     +list-group-item(val.url)          
-       span  #{val.title}
-  
+     li.list-group-item
+      a(href ="/results/" +val.title) 
+       = val.title       
+      
 
 
   f Results: #{valueofquery}
