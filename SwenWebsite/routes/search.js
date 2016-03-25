@@ -19,12 +19,11 @@ router.get('/query',function(req,res,next){
 		//use underscore to produce a new array of values
 		//mapping each value in the list through a 
 		//transformation adding the url and the title
-		valueq = data;
-		// = _.map(data,function(val){
-		//return {
-		//	url: '/search/' + val.path,title: val.title
-		//	};
-		//});
+		valueq =  _.map(data,function(val){ //data;
+		return {
+			url: '/search/' + val.path,title: val.title
+			};
+		});
 		//render page title and results to the search page
 		res.render('search', { title: 'Colenso Project',valueofquery : valueq });
 		//console.log('value url : ' +valueq.path);

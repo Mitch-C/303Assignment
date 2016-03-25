@@ -9,7 +9,7 @@ block body
    +nav_item("/xpath","active") XPath
  
  .container
-   h1= 'Enter your required search'
+   h1= 'Enter your required xpath search'
    form(method='get', action='/xpath/query')
     input(type='text', name='xpath')
     |     
@@ -23,7 +23,8 @@ block body
    if valueofquery  && valueofquery .length > 0
    
     each val in valueofquery
-     +list-group-item(val.url)          
+     +list-group-custom()
+      +list-group-item("/results/"+val.url.replace(/xpath/g, ""))         
        span  #{val.title}
   
 

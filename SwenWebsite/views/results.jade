@@ -4,7 +4,7 @@ block body
  +navbar("Colenso Project", "dropdown_menu")
   +nav_item("/") Home  
   +nav_item("/results","active") Results
-  +nav_item_dropdown("/search","active")(label = "Search")
+  +nav_item_dropdown("/search")(label = "Search")
    +nav_item("/search") Search
    +nav_item("/xquery") XQuery
    +nav_item("/xpath") XPath
@@ -12,10 +12,11 @@ block body
  block content
    .container
     h1 Results
-     if query && query.length > 0
+    h2 !{query}
+     if query 
       +list-group-custom()
-      each item in query      
-       span #{item.title}
-        
+      each item in query  
+       +list-group-item(item.url)    
+        span #{item.title}
 
- h1 is this displaying ? #{query.prop1}
+ !{doc}

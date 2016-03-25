@@ -52,3 +52,24 @@ exports.searchXPath = function(query, cb) {
     cb(undefined, querylist);
     });
 };
+
+exports.getDocument = function(path, cb) {
+ client.execute("XQUERY doc('colenso" + path + "')",
+                function(err, data) {
+                  if (err) {
+                    cb(err);
+                    return;
+                  }
+                  cb(undefined, data.result);
+                });
+};
+exports.XQuery = function(query, cb) {
+  this.execute("XQUERY " + query,
+                function(err, data) {
+                  if (err) {
+                    cb(err);
+                    return;
+                  }
+                  cb(undefined, data);
+                });
+};

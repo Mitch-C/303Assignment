@@ -20,12 +20,11 @@ block body
  .container
   h2 Search Results
   .result
-   if valueofquery  && valueofquery .length > 0
-    
+   if valueofquery  && valueofquery .length > 0    
     each val in valueofquery
-     li.list-group-item
-      a(href ="/results/" +val.title) 
-       = val.title       
+     +list-group-custom()
+      +list-group-item("/results/"+val.url.replace(/search/g, ""))
+       span #{val.title}      
       
 
 
