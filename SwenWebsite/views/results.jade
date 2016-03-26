@@ -10,14 +10,12 @@ block body
    +nav_item("/xquery") XQuery
    +nav_item("/xpath") XPath
 
+  
  block content
+   +a-btn-primary("download") Download
+   +a-btn-primary("edit") Edit
    .container
     h1 Results
-    h2 !{query}
-     if query 
-      +list-group-custom()
-      each item in query  
-       +list-group-item(item.url)    
-        span #{item.title}
+    
 
  !{doc}
