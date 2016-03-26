@@ -11,6 +11,7 @@ var search = require('./routes/search');
 var xquery = require('./routes/xquery');
 var xpath = require('./routes/xpath');
 var results = require('./routes/results');
+var browse = require('./routes/browse');
 
 var app = express();
 var query = "";
@@ -31,6 +32,7 @@ app.use('/search',search);
 app.use('/xpath',xpath);
 app.use('/xquery',xquery);
 app.use('/results',results);
+app.use('/browse',browse);
 
 /*app.post('/search', function (req, res) {
   console.log('Username: ' + req.body.username);

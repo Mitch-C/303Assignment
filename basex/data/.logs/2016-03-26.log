@@ -1,0 +1,163 @@
+11:56:04.339	SERVER	admin	OK	Server was started (port: 1984).
+11:58:02.613	127.0.0.1:53532	admin	REQUEST	OPEN Colenso	2.72 ms
+11:58:02.614	127.0.0.1:53532	admin	OK	Database 'Colenso' was opened in 0.29 ms.	0.91 ms
+11:58:14.313	127.0.0.1:53532	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	7.31 ms
+11:58:14.857	127.0.0.1:53532	admin	OK	Query executed in 543.23 ms.	544.08 ms
+11:58:14.858	127.0.0.1:53532	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.0 ms
+11:58:14.874	127.0.0.1:53532	admin	OK	Query executed in 15.08 ms.	15.5 ms
+11:59:14.368	127.0.0.1:53532	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.8 ms
+11:59:14.374	127.0.0.1:53532	admin	OK	Query executed in 4.98 ms.	5.49 ms
+12:59:10.545	127.0.0.1:53819	admin	REQUEST	OPEN Colenso	0.41 ms
+12:59:10.545	127.0.0.1:53819	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.32 ms
+12:59:12.568	127.0.0.1:53819	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.42 ms
+12:59:12.785	127.0.0.1:53819	admin	OK	Query executed in 216.94 ms.	217.23 ms
+13:00:36.682	127.0.0.1:53826	admin	REQUEST	OPEN Colenso	0.44 ms
+13:00:36.682	127.0.0.1:53826	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.29 ms
+13:00:58.327	127.0.0.1:53826	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.55 ms
+13:00:58.332	127.0.0.1:53826	admin	OK	Query executed in 3.9 ms.	4.3 ms
+13:02:07.317	127.0.0.1:53827	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text ''s and t''] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	1.07 ms
+13:02:07.477	127.0.0.1:53827	admin	ERROR	Stopped at ., 2/53: [XPST0003] Expecting ']', found 's'.	160.11 ms
+13:02:10.779	127.0.0.1:53827	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text ''''] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.45 ms
+13:02:12.240	127.0.0.1:53827	admin	OK	Query executed in 1459.33 ms.	1460.54 ms
+13:02:15.090	127.0.0.1:53827	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text ''y''] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.57 ms
+13:02:15.149	127.0.0.1:53827	admin	ERROR	Stopped at ., 2/53: [XPST0003] Expecting ']', found 'y'.	58.4 ms
+13:02:19.620	127.0.0.1:53827	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text ''t''] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.5 ms
+13:02:19.644	127.0.0.1:53827	admin	ERROR	Stopped at ., 2/53: [XPST0003] Expecting ']', found 't'.	23.59 ms
+13:02:27.113	127.0.0.1:53827	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; <result> { for $hit in collection('colenso') where $hitundefined return <li path='{ db:path($hit) }'>{ $hit//*:title }</li> } </result>	0.58 ms
+13:02:27.117	127.0.0.1:53827	admin	ERROR	Stopped at ., 3/7: [XPST0008] Undefined variable $hitundefined.	4.9 ms
+13:02:30.167	127.0.0.1:53827	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; <result> { for $hit in collection('colenso') where $hit//* return <li path='{ db:path($hit) }'>{ $hit//*:title }</li> } </result>	0.9 ms
+13:02:30.502	127.0.0.1:53827	admin	OK	Query executed in 334.08 ms.	334.91 ms
+13:06:34.933	127.0.0.1:53827	admin	REQUEST	XQUERY doc('colenso//Broughton/private_letters/PrLBrghtn-0001.xml')	0.58 ms
+13:06:34.953	127.0.0.1:53827	admin	OK	Query executed in 18.97 ms.	19.44 ms
+13:06:35.335	127.0.0.1:53827	admin	REQUEST	XQUERY doc('colenso//Broughton/css/blog.css')	0.41 ms
+13:06:35.341	127.0.0.1:53827	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Broughton/css/blog.css' yields no documents.	5.71 ms
+13:06:35.655	127.0.0.1:53827	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.44 ms
+13:06:35.659	127.0.0.1:53827	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.31 ms
+13:06:39.661	127.0.0.1:53827	admin	REQUEST	XQUERY doc('colenso//Broughton/private_letters/PrLBrghtn-0001.xml')	0.47 ms
+13:06:39.665	127.0.0.1:53827	admin	OK	Query executed in 3.22 ms.	3.67 ms
+13:06:40.010	127.0.0.1:53827	admin	REQUEST	XQUERY doc('colenso//Broughton/css/blog.css')	0.41 ms
+13:06:40.013	127.0.0.1:53827	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Broughton/css/blog.css' yields no documents.	2.87 ms
+13:06:40.417	127.0.0.1:53827	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.44 ms
+13:06:40.421	127.0.0.1:53827	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.19 ms
+13:07:10.894	127.0.0.1:53826	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.41 ms
+13:07:10.897	127.0.0.1:53826	admin	OK	Query executed in 3.27 ms.	3.64 ms
+13:07:18.378	127.0.0.1:54108	admin	REQUEST	OPEN Colenso	0.56 ms
+13:07:18.378	127.0.0.1:54108	admin	OK	Database 'Colenso' was opened in 0.09 ms.	0.56 ms
+13:07:38.142	127.0.0.1:54108	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.41 ms
+13:07:38.145	127.0.0.1:54108	admin	OK	Query executed in 2.38 ms.	2.66 ms
+13:18:31.131	127.0.0.1:54109	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text ''] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.71 ms
+13:18:31.578	127.0.0.1:54109	admin	OK	Query executed in 446.92 ms.	447.41 ms
+13:41:17.370	127.0.0.1:54549	admin	REQUEST	OPEN Colenso	0.46 ms
+13:41:17.371	127.0.0.1:54549	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.39 ms
+13:41:18.915	127.0.0.1:54549	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.39 ms
+13:41:18.918	127.0.0.1:54549	admin	OK	Query executed in 2.7 ms.	2.99 ms
+13:41:26.211	127.0.0.1:54549	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.53 ms
+13:41:26.214	127.0.0.1:54549	admin	OK	Query executed in 2.38 ms.	2.81 ms
+13:41:44.603	127.0.0.1:54549	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.48 ms
+13:41:44.608	127.0.0.1:54549	admin	OK	Query executed in 3.94 ms.	4.33 ms
+13:42:12.981	127.0.0.1:54563	admin	REQUEST	OPEN Colenso	0.52 ms
+13:42:12.983	127.0.0.1:54563	admin	OK	Database 'Colenso' was opened in 0.05 ms.	1.6 ms
+13:43:04.404	127.0.0.1:54566	admin	REQUEST	OPEN Colenso	0.32 ms
+13:43:04.405	127.0.0.1:54566	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.24 ms
+13:43:24.930	127.0.0.1:54566	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.68 ms
+13:43:24.934	127.0.0.1:54566	admin	OK	Query executed in 3.14 ms.	3.69 ms
+13:45:01.955	127.0.0.1:54659	admin	REQUEST	OPEN Colenso	0.52 ms
+13:45:01.956	127.0.0.1:54659	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+13:45:23.807	127.0.0.1:54659	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.47 ms
+13:45:23.810	127.0.0.1:54659	admin	OK	Query executed in 2.62 ms.	3.11 ms
+13:51:45.541	127.0.0.1:54699	admin	REQUEST	OPEN Colenso	0.48 ms
+13:51:45.542	127.0.0.1:54699	admin	OK	Database 'Colenso' was opened in 0.07 ms.	0.42 ms
+13:51:45.542	127.0.0.1:54700	admin	REQUEST	LIST Colenso	0.73 ms
+13:51:45.623	127.0.0.1:54700	admin	OK		80.41 ms
+13:53:05.074	127.0.0.1:54702	admin	REQUEST	OPEN Colenso	0.42 ms
+13:53:05.074	127.0.0.1:54703	admin	REQUEST	LIST Colenso	0.24 ms
+13:53:05.074	127.0.0.1:54702	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.36 ms
+13:53:05.096	127.0.0.1:54703	admin	OK		21.94 ms
+13:53:34.518	127.0.0.1:54706	admin	REQUEST	OPEN Colenso	0.35 ms
+13:53:34.518	127.0.0.1:54707	admin	REQUEST	LIST Colenso	0.2 ms
+13:53:34.518	127.0.0.1:54706	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.24 ms
+13:53:34.629	127.0.0.1:54707	admin	OK		111.15 ms
+13:57:27.752	127.0.0.1:54741	admin	REQUEST	OPEN Colenso	0.44 ms
+13:57:27.752	127.0.0.1:54741	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.25 ms
+13:57:39.600	127.0.0.1:54741	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.47 ms
+13:57:39.605	127.0.0.1:54741	admin	OK	Query executed in 3.76 ms.	4.22 ms
+13:57:58.148	127.0.0.1:54742	admin	REQUEST	LIST Colenso	0.43 ms
+13:57:58.174	127.0.0.1:54742	admin	OK		26.04 ms
+13:59:39.672	127.0.0.1:54742	admin	REQUEST	LIST Colenso	0.53 ms
+13:59:39.695	127.0.0.1:54742	admin	OK		23.73 ms
+14:02:25.726	127.0.0.1:54742	admin	REQUEST	LIST Colenso	0.82 ms
+14:02:25.758	127.0.0.1:54742	admin	OK		30.97 ms
+14:02:35.272	127.0.0.1:54859	admin	REQUEST	OPEN Colenso	0.39 ms
+14:02:35.272	127.0.0.1:54859	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.27 ms
+14:02:40.140	127.0.0.1:54859	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.34 ms
+14:02:40.144	127.0.0.1:54859	admin	OK	Query executed in 3.13 ms.	3.44 ms
+14:05:39.512	127.0.0.1:54860	admin	REQUEST	LIST Colenso	0.63 ms
+14:05:39.533	127.0.0.1:54860	admin	OK		20.91 ms
+14:07:50.884	127.0.0.1:54860	admin	REQUEST	LIST Colenso	0.5 ms
+14:07:50.902	127.0.0.1:54860	admin	OK		18.28 ms
+14:11:27.663	127.0.0.1:55010	admin	REQUEST	OPEN Colenso	0.35 ms
+14:11:27.664	127.0.0.1:55010	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.24 ms
+14:11:48.064	127.0.0.1:55010	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.38 ms
+14:11:48.067	127.0.0.1:55010	admin	OK	Query executed in 2.47 ms.	2.78 ms
+14:12:46.625	127.0.0.1:55011	admin	REQUEST	LIST Colenso	0.63 ms
+14:12:46.641	127.0.0.1:55011	admin	OK		16.15 ms
+14:13:11.438	127.0.0.1:55011	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.41 ms
+14:13:12.541	127.0.0.1:55011	admin	OK	Query executed in 1102.39 ms.	1102.76 ms
+14:13:13.828	127.0.0.1:55011	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.32 ms
+14:13:13.832	127.0.0.1:55011	admin	OK	Query executed in 4.17 ms.	4.56 ms
+14:13:14.137	127.0.0.1:55011	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.38 ms
+14:13:14.144	127.0.0.1:55011	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	6.52 ms
+14:13:14.655	127.0.0.1:55011	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.37 ms
+14:13:14.658	127.0.0.1:55011	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.62 ms
+14:13:24.720	127.0.0.1:55064	admin	REQUEST	OPEN Colenso	0.25 ms
+14:13:24.720	127.0.0.1:55064	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.21 ms
+14:14:18.533	127.0.0.1:55064	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.41 ms
+14:14:18.538	127.0.0.1:55064	admin	OK	Query executed in 4.68 ms.	5.03 ms
+14:14:39.616	127.0.0.1:55065	admin	REQUEST	LIST Colenso	0.52 ms
+14:14:39.635	127.0.0.1:55065	admin	OK		18.37 ms
+14:14:58.110	127.0.0.1:55138	admin	REQUEST	OPEN Colenso	0.36 ms
+14:14:58.110	127.0.0.1:55138	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.26 ms
+14:15:25.057	127.0.0.1:55139	admin	REQUEST	LIST Colenso	0.5 ms
+14:15:25.077	127.0.0.1:55139	admin	OK		20.16 ms
+14:15:26.476	127.0.0.1:55138	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.37 ms
+14:15:26.479	127.0.0.1:55138	admin	OK	Query executed in 2.85 ms.	3.2 ms
+14:15:28.072	127.0.0.1:55139	admin	REQUEST	LIST Colenso	0.36 ms
+14:15:28.095	127.0.0.1:55139	admin	OK		22.43 ms
+14:15:29.699	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0003.xml')	0.57 ms
+14:15:29.703	127.0.0.1:55139	admin	OK	Query executed in 3.73 ms.	4.16 ms
+14:15:30.043	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.56 ms
+14:15:30.046	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	3.35 ms
+14:15:30.401	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.28 ms
+14:15:30.419	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	18.56 ms
+14:15:34.683	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0025.xml')	0.3 ms
+14:15:34.684	127.0.0.1:55139	admin	OK	Query executed in 1.52 ms.	1.85 ms
+14:15:35.007	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.5 ms
+14:15:35.015	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	7.22 ms
+14:15:35.322	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.6 ms
+14:15:35.324	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.56 ms
+14:15:38.595	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0051.xml')	0.42 ms
+14:15:38.598	127.0.0.1:55139	admin	OK	Query executed in 2.67 ms.	3.22 ms
+14:15:38.899	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.64 ms
+14:15:38.903	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	3.96 ms
+14:15:39.204	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.4 ms
+14:15:39.209	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	4.09 ms
+14:15:50.059	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/unknown_author/private_letters/PrLunknwn-0001.xml')	0.43 ms
+14:15:50.061	127.0.0.1:55139	admin	OK	Query executed in 1.77 ms.	2.15 ms
+14:15:50.338	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/unknown_author/css/blog.css')	0.27 ms
+14:15:50.341	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/unknown_author/css/blog.css' yields no documents.	2.71 ms
+14:15:50.632	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.37 ms
+14:15:50.636	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	3.84 ms
+14:18:18.023	127.0.0.1:55138	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.5 ms
+14:18:18.026	127.0.0.1:55138	admin	OK	Query executed in 2.26 ms.	2.56 ms
+14:26:21.177	127.0.0.1:55139	admin	REQUEST	LIST Colenso	0.54 ms
+14:26:21.196	127.0.0.1:55139	admin	OK		18.55 ms
+14:26:22.443	127.0.0.1:55138	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.52 ms
+14:26:22.445	127.0.0.1:55138	admin	OK	Query executed in 1.87 ms.	2.14 ms
+14:27:01.934	127.0.0.1:55139	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.45 ms
+14:27:02.463	127.0.0.1:55139	admin	OK	Query executed in 528.36 ms.	528.75 ms
+14:27:04.076	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.44 ms
+14:27:04.565	127.0.0.1:55139	admin	OK	Query executed in 489.03 ms.	489.44 ms
+14:27:04.995	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.37 ms
+14:27:05.002	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	7.33 ms
+14:27:10.767	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.38 ms
+14:27:10.769	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.87 ms

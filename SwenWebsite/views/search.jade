@@ -3,6 +3,7 @@ extends ../node_modules/jade-bootstrap/layouts/blog
 block body
  +navbar("Colenso Project", "dropdown_menu")
   +nav_item("/") Home  
+  +nav_item("/browse") Browse
   +nav_item_dropdown("/search","active")(label = "Search")
    +nav_item("/search","active") Search
    +nav_item("/xquery") XQuery
