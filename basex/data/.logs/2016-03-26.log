@@ -161,3 +161,780 @@
 14:27:05.002	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	7.33 ms
 14:27:10.767	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.38 ms
 14:27:10.769	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.87 ms
+14:39:24.724	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.66 ms
+14:39:25.029	127.0.0.1:55139	admin	OK	Query executed in 304.45 ms.	304.85 ms
+14:39:25.346	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.29 ms
+14:39:25.381	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	34.77 ms
+14:39:31.141	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.61 ms
+14:39:31.147	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	6.23 ms
+14:41:24.678	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.52 ms
+14:41:25.020	127.0.0.1:55139	admin	OK	Query executed in 257.26 ms.	341.1 ms
+14:41:25.362	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.32 ms
+14:41:25.366	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.13 ms
+14:41:30.572	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.29 ms
+14:41:30.574	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.66 ms
+14:41:34.798	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.68 ms
+14:41:34.801	127.0.0.1:55139	admin	OK	Query executed in 1.83 ms.	2.26 ms
+14:41:35.072	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.4 ms
+14:41:35.077	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	5.38 ms
+14:41:35.416	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.29 ms
+14:41:35.419	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.76 ms
+14:41:49.191	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.33 ms
+14:41:49.193	127.0.0.1:55139	admin	OK	Query executed in 2.16 ms.	2.45 ms
+14:41:49.453	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.32 ms
+14:41:49.457	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	4.42 ms
+14:41:50.008	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.56 ms
+14:41:50.013	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.88 ms
+14:41:57.591	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.44 ms
+14:41:57.593	127.0.0.1:55139	admin	OK	Query executed in 2.14 ms.	2.53 ms
+14:41:57.873	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.39 ms
+14:41:57.876	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.78 ms
+14:41:58.457	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.88 ms
+14:41:58.462	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	5.12 ms
+14:43:00.728	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.9 ms
+14:43:00.730	127.0.0.1:55139	admin	OK	Query executed in 1.66 ms.	1.97 ms
+14:43:01.022	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.31 ms
+14:43:01.029	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	6.51 ms
+14:43:01.603	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.33 ms
+14:43:01.607	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.6 ms
+14:43:03.376	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.35 ms
+14:43:03.379	127.0.0.1:55139	admin	OK	Query executed in 2.56 ms.	2.92 ms
+14:43:03.633	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.3 ms
+14:43:03.636	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.07 ms
+14:43:04.049	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	1.12 ms
+14:43:04.053	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.56 ms
+14:43:04.667	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.44 ms
+14:43:04.672	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.97 ms
+14:43:06.217	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.61 ms
+14:43:06.222	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	5.11 ms
+14:43:06.790	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.42 ms
+14:43:06.795	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.5 ms
+14:43:25.170	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.42 ms
+14:43:25.174	127.0.0.1:55139	admin	OK	Query executed in 3.62 ms.	4.12 ms
+14:43:25.424	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.36 ms
+14:43:25.429	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	5.4 ms
+14:43:25.996	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.27 ms
+14:43:25.999	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.25 ms
+14:43:40.331	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.42 ms
+14:43:40.334	127.0.0.1:55139	admin	OK	Query executed in 2.59 ms.	2.96 ms
+14:43:40.584	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.32 ms
+14:43:40.587	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.19 ms
+14:43:41.191	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.37 ms
+14:43:41.195	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.19 ms
+14:43:43.040	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.49 ms
+14:43:43.043	127.0.0.1:55139	admin	OK	Query executed in 2.52 ms.	3.04 ms
+14:43:43.368	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.39 ms
+14:43:43.371	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.09 ms
+14:43:43.688	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.27 ms
+14:43:43.693	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	5.25 ms
+14:44:47.758	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.41 ms
+14:44:47.760	127.0.0.1:55139	admin	OK	Query executed in 1.67 ms.	2.0 ms
+14:44:48.017	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.44 ms
+14:44:48.023	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	5.32 ms
+14:44:48.653	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.31 ms
+14:44:48.658	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.74 ms
+14:44:50.553	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.58 ms
+14:44:50.556	127.0.0.1:55139	admin	OK	Query executed in 1.99 ms.	2.35 ms
+14:44:50.809	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.34 ms
+14:44:50.811	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.32 ms
+14:44:51.109	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.32 ms
+14:44:51.112	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.59 ms
+14:44:56.976	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.42 ms
+14:44:56.979	127.0.0.1:55139	admin	OK	Query executed in 2.26 ms.	2.95 ms
+14:44:57.356	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.3 ms
+14:44:57.359	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.07 ms
+14:44:57.926	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.3 ms
+14:44:57.930	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.76 ms
+14:44:59.661	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.37 ms
+14:44:59.664	127.0.0.1:55139	admin	OK	Query executed in 2.19 ms.	2.85 ms
+14:44:59.919	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.42 ms
+14:44:59.925	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	5.95 ms
+14:45:00.246	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.44 ms
+14:45:00.250	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.21 ms
+14:45:15.769	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.78 ms
+14:45:15.773	127.0.0.1:55139	admin	OK	Query executed in 2.61 ms.	3.27 ms
+14:45:16.052	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.36 ms
+14:45:16.055	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.48 ms
+14:45:16.605	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.38 ms
+14:45:16.608	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.18 ms
+14:45:23.778	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.33 ms
+14:45:23.780	127.0.0.1:55139	admin	OK	Query executed in 1.8 ms.	2.05 ms
+14:45:24.122	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.38 ms
+14:45:24.125	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.14 ms
+14:45:24.687	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.3 ms
+14:45:24.690	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.19 ms
+14:46:09.499	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.82 ms
+14:46:09.501	127.0.0.1:55139	admin	OK	Query executed in 1.9 ms.	2.22 ms
+14:46:09.773	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.29 ms
+14:46:09.781	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	7.73 ms
+14:46:10.357	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	1.12 ms
+14:46:10.361	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.97 ms
+14:46:18.651	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.3 ms
+14:46:18.653	127.0.0.1:55139	admin	OK	Query executed in 1.18 ms.	1.47 ms
+14:46:18.906	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.33 ms
+14:46:18.927	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	20.99 ms
+14:46:19.477	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.24 ms
+14:46:19.482	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.6 ms
+14:46:50.759	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.33 ms
+14:46:50.762	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.34 ms
+14:46:52.652	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.37 ms
+14:46:52.658	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	5.97 ms
+14:46:53.358	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.37 ms
+14:46:53.362	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.89 ms
+14:46:53.786	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.28 ms
+14:46:53.791	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.52 ms
+14:46:54.152	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.28 ms
+14:46:54.155	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.96 ms
+14:46:57.305	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.34 ms
+14:46:57.310	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.38 ms
+14:46:57.533	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.25 ms
+14:46:57.536	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.07 ms
+14:46:58.273	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.35 ms
+14:46:58.275	127.0.0.1:55139	admin	OK	Query executed in 2.05 ms.	2.37 ms
+14:46:58.549	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.46 ms
+14:46:58.552	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.45 ms
+14:46:59.113	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.25 ms
+14:46:59.116	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.51 ms
+14:47:01.908	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.26 ms
+14:47:01.910	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.4 ms
+14:47:11.197	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.31 ms
+14:47:11.198	127.0.0.1:55139	admin	OK	Query executed in 1.49 ms.	1.74 ms
+14:47:11.526	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.39 ms
+14:47:11.529	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.85 ms
+14:47:12.122	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.3 ms
+14:47:12.127	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.88 ms
+14:47:12.974	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download/')	0.33 ms
+14:47:12.978	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download/' yields no documents.	3.68 ms
+14:47:13.233	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/css/blog.css')	0.48 ms
+14:47:13.240	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/css/blog.css' yields no documents.	7.04 ms
+14:47:13.534	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/favicon.ico')	0.35 ms
+14:47:13.537	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/favicon.ico' yields no documents.	2.94 ms
+14:47:22.697	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download/download/')	0.36 ms
+14:47:22.703	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download/download/' yields no documents.	6.3 ms
+14:47:22.973	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download/css/blog.css')	0.36 ms
+14:47:22.976	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download/css/blog.css' yields no documents.	2.74 ms
+14:47:23.364	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/favicon.ico')	0.39 ms
+14:47:23.369	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/favicon.ico' yields no documents.	5.17 ms
+14:47:24.283	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download/download/download')	0.29 ms
+14:47:24.287	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download/download/download' yields no documents.	3.2 ms
+14:47:24.555	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download/css/blog.css')	0.31 ms
+14:47:24.557	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download/css/blog.css' yields no documents.	2.23 ms
+14:47:24.837	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/favicon.ico')	0.3 ms
+14:47:24.840	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/favicon.ico' yields no documents.	2.89 ms
+14:47:25.269	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download/download/download')	0.4 ms
+14:47:25.274	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download/download/download' yields no documents.	4.29 ms
+14:47:25.615	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download/css/blog.css')	0.31 ms
+14:47:25.618	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download/css/blog.css' yields no documents.	3.05 ms
+14:47:25.906	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/favicon.ico')	0.25 ms
+14:47:25.910	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/favicon.ico' yields no documents.	4.16 ms
+14:51:33.890	127.0.0.1:55138	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.09 ms
+14:51:33.899	127.0.0.1:55138	admin	OK	Query executed in 7.56 ms.	8.22 ms
+14:51:35.068	127.0.0.1:55139	admin	REQUEST	LIST Colenso	0.55 ms
+14:51:35.084	127.0.0.1:55139	admin	OK		16.04 ms
+14:53:55.217	127.0.0.1:55139	admin	REQUEST	LIST Colenso	0.55 ms
+14:53:55.236	127.0.0.1:55139	admin	OK		18.16 ms
+14:53:57.698	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Broughton/private_letters/PrLBrghtn-0001.xml')	0.27 ms
+14:53:57.699	127.0.0.1:55139	admin	OK	Query executed in 1.18 ms.	1.59 ms
+14:53:57.956	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Broughton/css/blog.css')	0.34 ms
+14:53:57.962	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Broughton/css/blog.css' yields no documents.	6.47 ms
+14:53:58.255	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.26 ms
+14:53:58.258	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	3.02 ms
+14:54:06.170	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0009.xml')	0.35 ms
+14:54:06.172	127.0.0.1:55139	admin	OK	Query executed in 2.11 ms.	2.5 ms
+14:54:06.527	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.34 ms
+14:54:06.530	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	3.44 ms
+14:54:06.861	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.3 ms
+14:54:06.864	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.76 ms
+14:55:18.390	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Broughton/private_letters/PrLBrghtn-0001.xml')	0.62 ms
+14:55:18.392	127.0.0.1:55139	admin	OK	Query executed in 1.06 ms.	1.47 ms
+14:55:18.651	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Broughton/css/blog.css')	0.25 ms
+14:55:18.654	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Broughton/css/blog.css' yields no documents.	2.47 ms
+14:55:18.969	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.83 ms
+14:55:18.972	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.95 ms
+14:55:20.687	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Broughton/private_letters/download')	0.31 ms
+14:55:20.691	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Broughton/private_letters/download' yields no documents.	4.2 ms
+14:55:20.949	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/Broughton/css/blog.css')	0.29 ms
+14:55:20.951	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Broughton/css/blog.css' yields no documents.	2.75 ms
+14:55:21.237	127.0.0.1:55139	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.3 ms
+14:55:21.239	127.0.0.1:55139	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.35 ms
+14:59:17.228	127.0.0.1:56033	admin	REQUEST	OPEN Colenso	0.45 ms
+14:59:17.229	127.0.0.1:56033	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.28 ms
+14:59:24.796	127.0.0.1:56036	admin	REQUEST	OPEN Colenso	0.3 ms
+14:59:24.797	127.0.0.1:56036	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.22 ms
+14:59:27.288	127.0.0.1:56036	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.26 ms
+14:59:27.291	127.0.0.1:56036	admin	OK	Query executed in 2.61 ms.	2.86 ms
+14:59:30.954	127.0.0.1:56037	admin	REQUEST	LIST Colenso	0.42 ms
+14:59:30.970	127.0.0.1:56037	admin	OK		15.91 ms
+14:59:32.571	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0001.xml')	0.29 ms
+14:59:32.572	127.0.0.1:56037	admin	OK	Query executed in 1.08 ms.	1.42 ms
+14:59:32.903	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.32 ms
+14:59:32.906	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.88 ms
+14:59:33.280	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.28 ms
+14:59:33.283	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.79 ms
+15:06:55.297	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/download')	0.46 ms
+15:06:55.303	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/newspaper_letters/download' yields no documents.	4.56 ms
+15:06:55.576	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.31 ms
+15:06:55.579	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.67 ms
+15:06:55.864	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.28 ms
+15:06:55.867	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.46 ms
+15:06:58.125	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.35 ms
+15:06:58.127	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.4 ms
+15:06:59.715	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.36 ms
+15:06:59.717	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.66 ms
+15:07:02.683	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.41 ms
+15:07:02.686	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.97 ms
+15:07:25.605	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0001.xml')	0.74 ms
+15:07:25.607	127.0.0.1:56037	admin	OK	Query executed in 1.48 ms.	1.88 ms
+15:07:25.991	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.25 ms
+15:07:25.994	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.83 ms
+15:07:26.553	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.42 ms
+15:07:26.558	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	4.44 ms
+15:07:27.107	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/download/')	0.25 ms
+15:07:27.113	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/newspaper_letters/download/' yields no documents.	5.59 ms
+15:07:27.370	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/css/blog.css')	0.3 ms
+15:07:27.373	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/newspaper_letters/css/blog.css' yields no documents.	2.41 ms
+15:07:27.649	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/favicon.ico')	0.23 ms
+15:07:27.652	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/favicon.ico' yields no documents.	2.83 ms
+15:07:30.307	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.4 ms
+15:07:30.312	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	4.72 ms
+15:07:33.222	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/edit')	0.43 ms
+15:07:33.225	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/newspaper_letters/edit' yields no documents.	3.38 ms
+15:07:33.489	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.3 ms
+15:07:33.492	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	3.67 ms
+15:07:33.775	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.25 ms
+15:07:33.777	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.62 ms
+15:07:34.666	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.31 ms
+15:07:34.669	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.56 ms
+15:07:47.830	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0001.xml')	0.49 ms
+15:07:47.831	127.0.0.1:56037	admin	OK	Query executed in 1.31 ms.	1.65 ms
+15:07:48.105	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.29 ms
+15:07:48.108	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.72 ms
+15:07:48.707	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.23 ms
+15:07:48.709	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.45 ms
+15:07:51.866	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/undefined')	0.7 ms
+15:07:51.871	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/newspaper_letters/undefined' yields no documents.	4.56 ms
+15:07:52.127	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.37 ms
+15:07:52.130	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	3.2 ms
+15:07:52.397	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.23 ms
+15:07:52.399	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.32 ms
+15:07:55.379	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.98 ms
+15:07:55.382	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	3.57 ms
+15:08:18.109	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0001.xml')	0.29 ms
+15:08:18.110	127.0.0.1:56037	admin	OK	Query executed in 0.95 ms.	1.15 ms
+15:08:18.383	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.26 ms
+15:08:18.385	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.66 ms
+15:08:18.969	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.3 ms
+15:08:18.972	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	3.03 ms
+15:08:22.487	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NaN')	1.1 ms
+15:08:22.492	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/newspaper_letters/NaN' yields no documents.	4.55 ms
+15:08:22.739	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.29 ms
+15:08:22.742	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	3.13 ms
+15:08:23.022	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.3 ms
+15:08:23.025	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	3.47 ms
+15:08:24.302	127.0.0.1:56037	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.32 ms
+15:08:24.307	127.0.0.1:56037	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	4.85 ms
+15:08:52.567	127.0.0.1:56105	admin	REQUEST	OPEN Colenso	0.25 ms
+15:08:52.567	127.0.0.1:56105	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.17 ms
+15:09:15.490	127.0.0.1:56105	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.39 ms
+15:09:15.603	127.0.0.1:56105	admin	OK	Query executed in 113.47 ms.	113.87 ms
+15:13:41.487	127.0.0.1:56106	admin	REQUEST	LIST Colenso	0.58 ms
+15:13:41.506	127.0.0.1:56106	admin	OK		19.63 ms
+15:13:43.878	127.0.0.1:56106	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0001.xml')	0.29 ms
+15:13:43.880	127.0.0.1:56106	admin	OK	Query executed in 1.25 ms.	1.58 ms
+15:13:44.260	127.0.0.1:56106	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.27 ms
+15:13:44.263	127.0.0.1:56106	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.9 ms
+15:13:44.650	127.0.0.1:56106	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.45 ms
+15:13:44.656	127.0.0.1:56106	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	5.4 ms
+15:16:48.564	127.0.0.1:56105	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.63 ms
+15:16:48.568	127.0.0.1:56105	admin	OK	Query executed in 3.32 ms.	3.66 ms
+15:16:49.868	127.0.0.1:56106	admin	REQUEST	LIST Colenso	0.3 ms
+15:16:49.883	127.0.0.1:56106	admin	OK		15.7 ms
+15:16:51.866	127.0.0.1:56106	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0002.xml')	0.3 ms
+15:16:51.868	127.0.0.1:56106	admin	OK	Query executed in 1.62 ms.	1.91 ms
+15:17:21.596	127.0.0.1:56106	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0009.xml')	0.42 ms
+15:17:21.598	127.0.0.1:56106	admin	OK	Query executed in 2.51 ms.	2.98 ms
+15:18:45.282	127.0.0.1:56530	admin	REQUEST	OPEN Colenso	0.26 ms
+15:18:45.282	127.0.0.1:56530	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.19 ms
+15:19:11.464	127.0.0.1:56531	admin	REQUEST	LIST Colenso	0.42 ms
+15:19:11.483	127.0.0.1:56531	admin	OK		19.0 ms
+15:19:34.479	127.0.0.1:56531	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0014.xml')	0.33 ms
+15:19:34.481	127.0.0.1:56531	admin	OK	Query executed in 1.89 ms.	2.21 ms
+15:19:49.464	127.0.0.1:56531	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0009.xml')	0.35 ms
+15:19:49.465	127.0.0.1:56531	admin	OK	Query executed in 1.52 ms.	1.77 ms
+15:19:49.808	127.0.0.1:56531	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.32 ms
+15:19:49.812	127.0.0.1:56531	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	3.78 ms
+15:19:50.136	127.0.0.1:56531	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.86 ms
+15:19:50.140	127.0.0.1:56531	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	4.28 ms
+15:20:05.383	127.0.0.1:56531	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.29 ms
+15:20:05.386	127.0.0.1:56531	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.65 ms
+15:21:34.699	127.0.0.1:56531	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.41 ms
+15:21:34.702	127.0.0.1:56531	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.7 ms
+15:22:40.686	127.0.0.1:56582	admin	REQUEST	OPEN Colenso	0.31 ms
+15:22:40.686	127.0.0.1:56582	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.17 ms
+15:23:03.056	127.0.0.1:56582	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.47 ms
+15:23:03.061	127.0.0.1:56582	admin	OK	Query executed in 5.51 ms.	5.86 ms
+15:23:24.176	127.0.0.1:56583	admin	REQUEST	LIST Colenso	0.35 ms
+15:23:24.193	127.0.0.1:56583	admin	OK		17.53 ms
+15:23:26.660	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0003.xml')	0.37 ms
+15:23:26.662	127.0.0.1:56583	admin	OK	Query executed in 1.76 ms.	2.15 ms
+15:23:26.989	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.39 ms
+15:23:26.992	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.64 ms
+15:23:27.360	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.39 ms
+15:23:27.369	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	8.73 ms
+15:26:16.840	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/download')	0.44 ms
+15:26:16.843	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/newspaper_letters/download' yields no documents.	2.86 ms
+15:26:17.148	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.36 ms
+15:26:17.151	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.62 ms
+15:26:17.476	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.29 ms
+15:26:17.485	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	8.9 ms
+15:26:55.978	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.53 ms
+15:26:55.984	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	5.95 ms
+15:26:58.534	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0016.xml')	0.22 ms
+15:26:58.535	127.0.0.1:56583	admin	OK	Query executed in 0.91 ms.	1.11 ms
+15:26:58.855	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.41 ms
+15:26:58.858	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.82 ms
+15:26:59.302	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.26 ms
+15:26:59.305	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.3 ms
+15:27:17.930	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0019b.xml')	0.36 ms
+15:27:17.932	127.0.0.1:56583	admin	OK	Query executed in 1.53 ms.	1.82 ms
+15:27:18.342	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.57 ms
+15:27:18.345	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.89 ms
+15:27:18.704	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.26 ms
+15:27:18.707	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	3.17 ms
+15:27:25.575	127.0.0.1:56582	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.49 ms
+15:27:25.579	127.0.0.1:56582	admin	OK	Query executed in 3.02 ms.	3.56 ms
+15:27:29.933	127.0.0.1:56583	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'u'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.37 ms
+15:27:30.541	127.0.0.1:56583	admin	OK	Query executed in 608.39 ms.	608.91 ms
+15:27:31.707	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0077.xml')	0.33 ms
+15:27:31.709	127.0.0.1:56583	admin	OK	Query executed in 2.08 ms.	2.31 ms
+15:27:32.090	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.42 ms
+15:27:32.096	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	5.93 ms
+15:27:32.447	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.33 ms
+15:27:32.450	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.11 ms
+15:28:06.609	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download')	0.45 ms
+15:28:06.613	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download' yields no documents.	4.34 ms
+15:28:06.907	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.26 ms
+15:28:06.909	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	1.99 ms
+15:28:07.211	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.22 ms
+15:28:07.214	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.37 ms
+15:28:21.212	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/download')	0.26 ms
+15:28:21.219	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/download' yields no documents.	6.9 ms
+15:28:21.543	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.29 ms
+15:28:21.546	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.05 ms
+15:28:22.154	127.0.0.1:56583	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.26 ms
+15:28:22.159	127.0.0.1:56583	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.59 ms
+15:28:37.831	127.0.0.1:56688	admin	REQUEST	OPEN Colenso	0.23 ms
+15:28:37.831	127.0.0.1:56688	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.2 ms
+15:28:59.102	127.0.0.1:56688	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.29 ms
+15:28:59.103	127.0.0.1:56688	admin	OK	Query executed in 1.58 ms.	1.76 ms
+15:29:16.508	127.0.0.1:56689	admin	REQUEST	LIST Colenso	0.61 ms
+15:29:16.527	127.0.0.1:56689	admin	OK		19.54 ms
+15:29:18.765	127.0.0.1:56689	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0009.xml')	0.85 ms
+15:29:18.767	127.0.0.1:56689	admin	OK	Query executed in 1.7 ms.	1.97 ms
+15:29:19.112	127.0.0.1:56689	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.24 ms
+15:29:19.115	127.0.0.1:56689	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	3.31 ms
+15:29:19.516	127.0.0.1:56689	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.35 ms
+15:29:19.520	127.0.0.1:56689	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	3.85 ms
+15:29:30.017	127.0.0.1:56689	admin	REQUEST	XQUERY doc('colenso/Colenso/diary/diary.xml')	0.9 ms
+15:29:30.256	127.0.0.1:56689	admin	OK	Query executed in 238.17 ms.	238.43 ms
+15:29:30.596	127.0.0.1:56689	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.26 ms
+15:29:30.599	127.0.0.1:56689	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.68 ms
+15:29:36.639	127.0.0.1:56689	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.24 ms
+15:29:36.641	127.0.0.1:56689	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.09 ms
+15:31:11.250	127.0.0.1:56700	admin	REQUEST	OPEN Colenso	0.6 ms
+15:31:11.250	127.0.0.1:56700	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.28 ms
+15:31:49.979	127.0.0.1:56700	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.45 ms
+15:31:49.982	127.0.0.1:56700	admin	OK	Query executed in 3.05 ms.	3.33 ms
+15:31:55.398	127.0.0.1:56706	admin	REQUEST	OPEN Colenso	0.28 ms
+15:31:55.399	127.0.0.1:56706	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.19 ms
+15:32:31.981	127.0.0.1:56706	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.27 ms
+15:32:31.983	127.0.0.1:56706	admin	OK	Query executed in 2.04 ms.	2.25 ms
+15:32:41.995	127.0.0.1:56707	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.43 ms
+15:32:43.165	127.0.0.1:56707	admin	OK	Query executed in 1168.1 ms.	1168.78 ms
+15:32:44.513	127.0.0.1:56707	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	102.96 ms
+15:32:44.617	127.0.0.1:56707	admin	OK	Query executed in 1.55 ms.	1.79 ms
+15:32:45.086	127.0.0.1:56707	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.43 ms
+15:32:45.135	127.0.0.1:56707	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	49.32 ms
+15:32:45.494	127.0.0.1:56707	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	14.1 ms
+15:32:45.497	127.0.0.1:56707	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.3 ms
+15:33:00.549	127.0.0.1:56706	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.34 ms
+15:33:00.552	127.0.0.1:56706	admin	OK	Query executed in 2.37 ms.	2.77 ms
+15:33:36.465	127.0.0.1:56753	admin	REQUEST	OPEN Colenso	0.31 ms
+15:33:36.465	127.0.0.1:56753	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+15:34:08.240	127.0.0.1:56754	admin	REQUEST	LIST Colenso	0.3 ms
+15:34:08.258	127.0.0.1:56754	admin	OK		17.95 ms
+15:34:13.368	127.0.0.1:56754	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.3 ms
+15:34:13.934	127.0.0.1:56754	admin	OK	Query executed in 564.8 ms.	565.09 ms
+15:34:15.027	127.0.0.1:56754	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.25 ms
+15:34:15.029	127.0.0.1:56754	admin	OK	Query executed in 1.85 ms.	2.17 ms
+15:34:15.473	127.0.0.1:56754	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.26 ms
+15:34:15.476	127.0.0.1:56754	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.81 ms
+15:34:15.822	127.0.0.1:56754	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.22 ms
+15:34:15.826	127.0.0.1:56754	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.46 ms
+15:35:51.513	127.0.0.1:56765	admin	REQUEST	OPEN Colenso	0.33 ms
+15:35:51.513	127.0.0.1:56765	admin	OK	Database 'Colenso' was opened in 0.07 ms.	0.33 ms
+15:36:09.379	127.0.0.1:56765	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.27 ms
+15:36:09.382	127.0.0.1:56765	admin	OK	Query executed in 3.22 ms.	3.42 ms
+15:36:15.873	127.0.0.1:56766	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.36 ms
+15:36:16.468	127.0.0.1:56766	admin	OK	Query executed in 595.05 ms.	595.32 ms
+15:36:17.650	127.0.0.1:56766	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.5 ms
+15:36:17.885	127.0.0.1:56766	admin	OK	Query executed in 233.06 ms.	233.31 ms
+15:36:18.284	127.0.0.1:56766	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.27 ms
+15:36:18.287	127.0.0.1:56766	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.85 ms
+15:36:19.726	127.0.0.1:56766	admin	REQUEST	XQUERY doc('colenso//Colenso/diary.xml')	0.39 ms
+15:36:19.735	127.0.0.1:56766	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/diary.xml' yields no documents.	8.8 ms
+16:18:08.442	127.0.0.1:57358	admin	REQUEST	OPEN Colenso	0.28 ms
+16:18:08.442	127.0.0.1:57358	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.18 ms
+16:18:12.131	127.0.0.1:57358	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.26 ms
+16:18:12.133	127.0.0.1:57358	admin	OK	Query executed in 2.01 ms.	2.24 ms
+16:18:17.236	127.0.0.1:57359	admin	REQUEST	LIST Colenso	0.26 ms
+16:18:17.255	127.0.0.1:57359	admin	OK		19.02 ms
+16:18:21.194	127.0.0.1:57359	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.6 ms
+16:18:21.716	127.0.0.1:57359	admin	OK	Query executed in 521.65 ms.	521.97 ms
+16:18:22.849	127.0.0.1:57359	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.26 ms
+16:18:23.080	127.0.0.1:57359	admin	OK	Query executed in 230.61 ms.	230.86 ms
+16:18:23.421	127.0.0.1:57359	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.27 ms
+16:18:23.423	127.0.0.1:57359	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.63 ms
+16:18:26.769	127.0.0.1:57359	admin	REQUEST	XQUERY doc('colenso/Colenso/private_letters/PrL-0001.xml')	0.41 ms
+16:18:26.771	127.0.0.1:57359	admin	OK	Query executed in 1.74 ms.	2.45 ms
+16:18:59.216	127.0.0.1:57359	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.34 ms
+16:18:59.428	127.0.0.1:57359	admin	OK	Query executed in 211.47 ms.	211.75 ms
+16:19:03.585	127.0.0.1:57359	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.42 ms
+16:19:03.857	127.0.0.1:57359	admin	OK	Query executed in 272.17 ms.	272.51 ms
+16:19:10.555	127.0.0.1:57359	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.26 ms
+16:19:10.557	127.0.0.1:57359	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.7 ms
+16:20:13.788	127.0.0.1:57379	admin	REQUEST	OPEN Colenso	0.31 ms
+16:20:13.788	127.0.0.1:57379	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.18 ms
+16:20:35.300	127.0.0.1:57379	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.42 ms
+16:20:35.304	127.0.0.1:57379	admin	OK	Query executed in 3.77 ms.	4.11 ms
+16:20:57.153	127.0.0.1:57380	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.32 ms
+16:20:57.693	127.0.0.1:57380	admin	OK	Query executed in 538.76 ms.	539.02 ms
+16:20:58.923	127.0.0.1:57380	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.31 ms
+16:20:59.176	127.0.0.1:57380	admin	OK	Query executed in 252.86 ms.	253.14 ms
+16:20:59.600	127.0.0.1:57380	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.33 ms
+16:20:59.602	127.0.0.1:57380	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.4 ms
+16:21:01.991	127.0.0.1:57380	admin	REQUEST	XQUERY doc('colenso//Colenso/diary.xml')	0.36 ms
+16:21:01.996	127.0.0.1:57380	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/diary.xml' yields no documents.	5.16 ms
+16:21:24.300	127.0.0.1:57454	admin	REQUEST	OPEN Colenso	0.23 ms
+16:21:24.300	127.0.0.1:57454	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.17 ms
+16:21:24.864	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.21 ms
+16:21:25.079	127.0.0.1:57455	admin	OK	Query executed in 214.71 ms.	214.93 ms
+16:21:26.611	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.25 ms
+16:21:26.897	127.0.0.1:57455	admin	OK	Query executed in 285.62 ms.	285.88 ms
+16:21:27.586	127.0.0.1:57454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.32 ms
+16:21:27.589	127.0.0.1:57454	admin	OK	Query executed in 2.75 ms.	3.0 ms
+16:21:41.768	127.0.0.1:57455	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.4 ms
+16:21:42.451	127.0.0.1:57455	admin	OK	Query executed in 681.89 ms.	682.21 ms
+16:21:44.416	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.33 ms
+16:21:44.418	127.0.0.1:57455	admin	OK	Query executed in 2.09 ms.	2.34 ms
+16:21:44.684	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.26 ms
+16:21:44.687	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.44 ms
+16:21:44.983	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.24 ms
+16:21:44.987	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.43 ms
+16:21:50.078	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.22 ms
+16:21:50.080	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.18 ms
+16:27:40.206	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.43 ms
+16:27:40.208	127.0.0.1:57455	admin	OK	Query executed in 1.62 ms.	1.89 ms
+16:27:40.492	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.28 ms
+16:27:40.494	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.41 ms
+16:27:40.852	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.79 ms
+16:27:40.856	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.61 ms
+16:27:43.734	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.28 ms
+16:27:43.736	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	1.93 ms
+16:27:49.048	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.97 ms
+16:27:49.051	127.0.0.1:57455	admin	OK	Query executed in 2.1 ms.	2.38 ms
+16:27:49.321	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.24 ms
+16:27:49.323	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.58 ms
+16:27:49.953	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.21 ms
+16:27:49.956	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.81 ms
+16:27:53.607	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.41 ms
+16:27:53.610	127.0.0.1:57455	admin	OK	Query executed in 2.51 ms.	2.81 ms
+16:27:53.870	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.21 ms
+16:27:53.874	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	4.43 ms
+16:27:54.442	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.88 ms
+16:27:54.445	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.94 ms
+16:28:00.138	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.32 ms
+16:28:00.142	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.09 ms
+16:28:18.616	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.9 ms
+16:28:18.618	127.0.0.1:57455	admin	OK	Query executed in 2.16 ms.	2.44 ms
+16:28:18.920	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.26 ms
+16:28:18.923	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.22 ms
+16:28:19.580	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.29 ms
+16:28:19.585	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.94 ms
+16:28:20.257	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/undefined')	0.37 ms
+16:28:20.261	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/undefined' yields no documents.	3.62 ms
+16:28:20.505	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.28 ms
+16:28:20.508	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.05 ms
+16:28:20.788	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.3 ms
+16:28:20.791	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.17 ms
+16:28:22.595	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.24 ms
+16:28:22.665	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	70.4 ms
+16:29:43.534	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/private_letters/PrL-0120.xml')	0.54 ms
+16:29:43.538	127.0.0.1:57455	admin	OK	Query executed in 3.58 ms.	4.15 ms
+16:29:43.810	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.24 ms
+16:29:43.813	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.67 ms
+16:29:44.168	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.24 ms
+16:29:44.175	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	6.83 ms
+16:29:50.760	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/private_letters/undefined')	0.26 ms
+16:29:50.762	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/private_letters/undefined' yields no documents.	2.76 ms
+16:29:51.030	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.24 ms
+16:29:51.033	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.85 ms
+16:29:51.414	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.24 ms
+16:29:51.416	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.32 ms
+16:29:53.032	127.0.0.1:57455	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.23 ms
+16:29:53.034	127.0.0.1:57455	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.51 ms
+16:30:44.954	127.0.0.1:57454	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.44 ms
+16:30:44.958	127.0.0.1:57454	admin	OK	Query executed in 2.77 ms.	3.1 ms
+16:30:48.597	127.0.0.1:57455	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.25 ms
+16:30:49.170	127.0.0.1:57455	admin	OK	Query executed in 573.02 ms.	573.5 ms
+16:38:23.914	127.0.0.1:57770	admin	REQUEST	OPEN Colenso	0.3 ms
+16:38:23.914	127.0.0.1:57770	admin	OK	Database 'Colenso' was opened in 0.07 ms.	0.29 ms
+16:38:25.472	127.0.0.1:57770	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.23 ms
+16:38:25.474	127.0.0.1:57770	admin	OK	Query executed in 1.95 ms.	2.13 ms
+16:38:52.787	127.0.0.1:57771	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.32 ms
+16:38:53.313	127.0.0.1:57771	admin	OK	Query executed in 526.32 ms.	526.6 ms
+16:38:54.622	127.0.0.1:57771	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.24 ms
+16:38:54.845	127.0.0.1:57771	admin	OK	Query executed in 222.84 ms.	223.06 ms
+16:38:55.223	127.0.0.1:57771	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.23 ms
+16:38:55.226	127.0.0.1:57771	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.5 ms
+16:38:56.898	127.0.0.1:57771	admin	REQUEST	XQUERY doc('colenso//Colenso/diary')	0.36 ms
+16:38:57.198	127.0.0.1:57771	admin	OK	Query executed in 299.65 ms.	299.95 ms
+16:41:43.971	127.0.0.1:57803	admin	REQUEST	OPEN Colenso	0.29 ms
+16:41:43.971	127.0.0.1:57803	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.19 ms
+16:41:44.730	127.0.0.1:57804	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.43 ms
+16:41:44.946	127.0.0.1:57804	admin	OK	Query executed in 216.51 ms.	216.76 ms
+16:41:46.632	127.0.0.1:57803	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.22 ms
+16:41:46.634	127.0.0.1:57803	admin	OK	Query executed in 1.92 ms.	2.1 ms
+16:41:50.208	127.0.0.1:57804	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.36 ms
+16:41:50.750	127.0.0.1:57804	admin	OK	Query executed in 540.81 ms.	541.05 ms
+16:41:52.366	127.0.0.1:57804	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml')	0.34 ms
+16:41:52.368	127.0.0.1:57804	admin	OK	Query executed in 1.7 ms.	1.94 ms
+16:41:52.641	127.0.0.1:57804	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.26 ms
+16:41:52.643	127.0.0.1:57804	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.54 ms
+16:41:52.957	127.0.0.1:57804	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.24 ms
+16:41:52.961	127.0.0.1:57804	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.76 ms
+16:41:54.175	127.0.0.1:57804	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters')	0.27 ms
+16:41:54.180	127.0.0.1:57804	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters' points to more than one document.	4.92 ms
+16:42:22.833	127.0.0.1:57831	admin	REQUEST	OPEN Colenso	0.27 ms
+16:42:22.833	127.0.0.1:57831	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.3 ms
+16:42:25.621	127.0.0.1:57831	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.32 ms
+16:42:25.624	127.0.0.1:57831	admin	OK	Query executed in 2.13 ms.	2.44 ms
+16:42:27.090	127.0.0.1:57832	admin	REQUEST	LIST Colenso	0.22 ms
+16:42:27.108	127.0.0.1:57832	admin	OK		18.35 ms
+16:42:31.996	127.0.0.1:57832	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.31 ms
+16:42:32.550	127.0.0.1:57832	admin	OK	Query executed in 553.85 ms.	554.1 ms
+16:42:33.850	127.0.0.1:57832	admin	REQUEST	XQUERY doc('colenso//Colenso/private_letters/PrL-0120.xml')	0.23 ms
+16:42:33.853	127.0.0.1:57832	admin	OK	Query executed in 2.83 ms.	3.12 ms
+16:42:34.158	127.0.0.1:57832	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.27 ms
+16:42:34.161	127.0.0.1:57832	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.73 ms
+16:42:34.493	127.0.0.1:57832	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.21 ms
+16:42:34.495	127.0.0.1:57832	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.09 ms
+16:42:35.653	127.0.0.1:57832	admin	REQUEST	XQUERY doc('colenso//Colenso/private_letters')	0.39 ms
+16:42:35.657	127.0.0.1:57832	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/private_letters' points to more than one document.	4.05 ms
+16:43:05.346	127.0.0.1:57840	admin	REQUEST	OPEN Colenso	0.24 ms
+16:43:05.346	127.0.0.1:57840	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.16 ms
+16:43:25.208	127.0.0.1:57844	admin	REQUEST	OPEN Colenso	0.29 ms
+16:43:25.208	127.0.0.1:57844	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.14 ms
+16:43:32.368	127.0.0.1:57844	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.24 ms
+16:43:32.370	127.0.0.1:57844	admin	OK	Query executed in 1.84 ms.	2.02 ms
+16:43:36.512	127.0.0.1:57845	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.38 ms
+16:43:37.041	127.0.0.1:57845	admin	OK	Query executed in 528.98 ms.	529.25 ms
+16:43:38.286	127.0.0.1:57845	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0157.xml')	0.27 ms
+16:43:38.288	127.0.0.1:57845	admin	OK	Query executed in 1.81 ms.	2.04 ms
+16:43:38.613	127.0.0.1:57845	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.25 ms
+16:43:38.619	127.0.0.1:57845	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	5.37 ms
+16:43:38.944	127.0.0.1:57845	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.75 ms
+16:43:38.957	127.0.0.1:57845	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	13.26 ms
+16:43:39.922	127.0.0.1:57845	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters')	0.28 ms
+16:43:39.926	127.0.0.1:57845	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters' points to more than one document.	4.28 ms
+16:45:13.929	127.0.0.1:57884	admin	REQUEST	OPEN Colenso	0.28 ms
+16:45:13.929	127.0.0.1:57884	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.17 ms
+16:45:16.160	127.0.0.1:57884	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.76 ms
+16:45:16.163	127.0.0.1:57884	admin	OK	Query executed in 2.36 ms.	2.7 ms
+16:45:26.572	127.0.0.1:57885	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.38 ms
+16:45:27.101	127.0.0.1:57885	admin	OK	Query executed in 527.93 ms.	528.26 ms
+16:45:28.596	127.0.0.1:57885	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0074.xml')	0.46 ms
+16:45:28.598	127.0.0.1:57885	admin	OK	Query executed in 1.69 ms.	2.05 ms
+16:45:28.923	127.0.0.1:57885	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.29 ms
+16:45:28.926	127.0.0.1:57885	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.15 ms
+16:45:29.269	127.0.0.1:57885	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.32 ms
+16:45:29.274	127.0.0.1:57885	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	5.57 ms
+16:45:30.141	127.0.0.1:57885	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.39 ms
+16:45:30.145	127.0.0.1:57885	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	4.0 ms
+16:46:58.800	127.0.0.1:57959	admin	REQUEST	OPEN Colenso	0.38 ms
+16:46:58.800	127.0.0.1:57959	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.21 ms
+16:47:00.331	127.0.0.1:57960	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.35 ms
+16:47:00.333	127.0.0.1:57960	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.47 ms
+16:47:01.481	127.0.0.1:57959	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.64 ms
+16:47:01.484	127.0.0.1:57959	admin	OK	Query executed in 3.52 ms.	4.07 ms
+16:47:17.243	127.0.0.1:57960	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.56 ms
+16:47:17.758	127.0.0.1:57960	admin	OK	Query executed in 515.36 ms.	515.7 ms
+16:47:19.563	127.0.0.1:57960	admin	REQUEST	XQUERY doc('colenso//Colenso/private_letters/PrL-0120.xml')	0.32 ms
+16:47:19.567	127.0.0.1:57960	admin	OK	Query executed in 3.26 ms.	3.64 ms
+16:47:19.833	127.0.0.1:57960	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.49 ms
+16:47:19.837	127.0.0.1:57960	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	4.25 ms
+16:47:20.156	127.0.0.1:57960	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.23 ms
+16:47:20.160	127.0.0.1:57960	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.43 ms
+16:47:45.608	127.0.0.1:57960	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.29 ms
+16:47:45.614	127.0.0.1:57960	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	5.3 ms
+16:49:36.787	127.0.0.1:58050	admin	REQUEST	OPEN Colenso	0.3 ms
+16:49:36.787	127.0.0.1:58050	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.25 ms
+16:49:40.299	127.0.0.1:58050	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.3 ms
+16:49:40.301	127.0.0.1:58050	admin	OK	Query executed in 2.33 ms.	2.56 ms
+16:49:43.729	127.0.0.1:58051	admin	REQUEST	LIST Colenso	0.23 ms
+16:49:43.750	127.0.0.1:58051	admin	OK		21.66 ms
+16:49:45.114	127.0.0.1:58051	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0012.xml')	0.2 ms
+16:49:45.116	127.0.0.1:58051	admin	OK	Query executed in 1.24 ms.	1.57 ms
+16:49:45.525	127.0.0.1:58051	admin	REQUEST	XQUERY doc('colenso/Colenso/css/blog.css')	0.21 ms
+16:49:45.528	127.0.0.1:58051	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/css/blog.css' yields no documents.	2.99 ms
+16:49:45.902	127.0.0.1:58051	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.17 ms
+16:49:45.904	127.0.0.1:58051	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	2.52 ms
+16:49:46.494	127.0.0.1:58051	admin	REQUEST	XQUERY doc('colenso/favicon.ico')	0.23 ms
+16:49:46.498	127.0.0.1:58051	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/favicon.ico' yields no documents.	4.21 ms
+16:52:02.797	127.0.0.1:58060	admin	REQUEST	OPEN Colenso	0.33 ms
+16:52:02.797	127.0.0.1:58060	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.24 ms
+16:52:05.405	127.0.0.1:58060	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.27 ms
+16:52:05.408	127.0.0.1:58060	admin	OK	Query executed in 1.99 ms.	2.21 ms
+16:52:20.077	127.0.0.1:58061	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.29 ms
+16:52:20.635	127.0.0.1:58061	admin	OK	Query executed in 558.41 ms.	559.05 ms
+16:53:12.721	127.0.0.1:58078	admin	REQUEST	OPEN Colenso	0.31 ms
+16:53:12.721	127.0.0.1:58078	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.18 ms
+16:53:35.738	127.0.0.1:58079	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.22 ms
+16:53:35.966	127.0.0.1:58079	admin	OK	Query executed in 226.61 ms.	226.85 ms
+16:53:37.133	127.0.0.1:58079	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.19 ms
+16:53:37.136	127.0.0.1:58079	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	2.55 ms
+16:53:38.737	127.0.0.1:58079	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.29 ms
+16:53:38.740	127.0.0.1:58079	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.25 ms
+20:00:53.669	SERVER	admin	OK	Server was started (port: 1984).
+21:52:05.369	127.0.0.1:59803	admin	REQUEST	OPEN Colenso	4.99 ms
+21:52:05.371	127.0.0.1:59803	admin	OK	Database 'Colenso' was opened in 0.53 ms.	1.74 ms
+21:52:39.003	127.0.0.1:59803	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	498.0 ms
+21:52:57.675	127.0.0.1:59803	admin	OK	Query executed in 18670.77 ms.	18672.36 ms
+21:53:23.947	127.0.0.1:59804	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.72 ms
+21:53:26.337	127.0.0.1:59804	admin	OK	Query executed in 2389.37 ms.	2390.49 ms
+21:53:27.955	127.0.0.1:59804	admin	REQUEST	XQUERY doc('colenso/Colenso/private_letters/PrL-0001.xml')	1.09 ms
+21:53:27.981	127.0.0.1:59804	admin	OK	Query executed in 23.36 ms.	26.02 ms
+21:53:28.288	127.0.0.1:59804	admin	REQUEST	XQUERY doc('colenso/Colenso/private_letters/PrL-0001.xml')	0.57 ms
+21:53:28.292	127.0.0.1:59804	admin	OK	Query executed in 3.1 ms.	4.21 ms
+21:53:28.599	127.0.0.1:59804	admin	REQUEST	XQUERY doc('colenso/Colenso/private_letters/PrL-0001.xml')	0.7 ms
+21:53:28.602	127.0.0.1:59804	admin	OK	Query executed in 2.51 ms.	2.93 ms
+21:53:29.707	127.0.0.1:59804	admin	REQUEST	XQUERY doc('colenso/Colenso/private_letters/PrL-0001.xml')	0.54 ms
+21:53:29.711	127.0.0.1:59804	admin	OK	Query executed in 3.11 ms.	3.7 ms
+21:54:16.748	127.0.0.1:59834	admin	REQUEST	OPEN Colenso	0.34 ms
+21:54:16.748	127.0.0.1:59834	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.37 ms
+21:54:20.573	127.0.0.1:59835	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.32 ms
+21:54:20.648	127.0.0.1:59835	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	75.52 ms
+21:54:21.794	127.0.0.1:59834	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.36 ms
+21:54:21.800	127.0.0.1:59834	admin	OK	Query executed in 5.36 ms.	5.69 ms
+22:31:03.528	127.0.0.1:59835	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	1.01 ms
+22:31:05.625	127.0.0.1:59835	admin	OK	Query executed in 2095.7 ms.	2096.35 ms
+22:31:10.558	127.0.0.1:59835	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.77 ms
+22:31:11.036	127.0.0.1:59835	admin	OK	Query executed in 477.06 ms.	477.56 ms
+22:31:11.418	127.0.0.1:59835	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.49 ms
+22:31:11.437	127.0.0.1:59835	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	19.12 ms
+22:31:15.362	127.0.0.1:59835	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.84 ms
+22:31:15.365	127.0.0.1:59835	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.47 ms
+23:36:24.099	127.0.0.1:60596	admin	REQUEST	OPEN Colenso	10.66 ms
+23:36:24.141	127.0.0.1:60596	admin	OK	Database 'Colenso' was opened in 29.68 ms.	32.28 ms
+23:36:39.551	127.0.0.1:60596	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.42 ms
+23:36:40.618	127.0.0.1:60596	admin	OK	Query executed in 1066.62 ms.	1067.36 ms
+23:36:48.903	127.0.0.1:60597	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.43 ms
+23:36:53.823	127.0.0.1:60597	admin	OK	Query executed in 4918.96 ms.	4919.57 ms
+23:36:53.824	127.0.0.1:60597	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.91 ms
+23:36:54.996	127.0.0.1:60597	admin	OK	Query executed in 1155.32 ms.	1171.53 ms
+23:36:57.544	127.0.0.1:60597	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.44 ms
+23:36:57.970	127.0.0.1:60597	admin	OK	Query executed in 425.38 ms.	425.75 ms
+23:36:58.403	127.0.0.1:60597	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.38 ms
+23:36:58.429	127.0.0.1:60597	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	25.5 ms
+23:37:05.532	127.0.0.1:60597	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	1.11 ms
+23:37:05.613	127.0.0.1:60597	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	81.41 ms
+23:37:33.044	127.0.0.1:60597	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.44 ms
+23:37:33.055	127.0.0.1:60597	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	10.32 ms
+23:39:21.353	127.0.0.1:60605	admin	REQUEST	OPEN Colenso	0.62 ms
+23:39:21.354	127.0.0.1:60605	admin	OK	Database 'Colenso' was opened in 0.08 ms.	0.57 ms
+23:39:26.313	127.0.0.1:60605	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.5 ms
+23:39:26.316	127.0.0.1:60605	admin	OK	Query executed in 2.74 ms.	3.08 ms
+23:39:31.493	127.0.0.1:60606	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.59 ms
+23:39:32.175	127.0.0.1:60606	admin	OK	Query executed in 681.31 ms.	681.71 ms
+23:39:33.524	127.0.0.1:60606	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.38 ms
+23:39:33.974	127.0.0.1:60606	admin	OK	Query executed in 448.99 ms.	449.33 ms
+23:39:34.420	127.0.0.1:60606	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	1.71 ms
+23:39:34.442	127.0.0.1:60606	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	21.38 ms
+23:39:36.871	127.0.0.1:60606	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	17.23 ms
+23:39:36.883	127.0.0.1:60606	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	12.57 ms
+23:43:24.072	127.0.0.1:60616	admin	REQUEST	OPEN Colenso	0.67 ms
+23:43:24.186	127.0.0.1:60616	admin	OK	Database 'Colenso' was opened in 0.08 ms.	113.99 ms
+23:43:25.817	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.34 ms
+23:43:25.827	127.0.0.1:60616	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	14.79 ms
+23:43:25.832	127.0.0.1:60616	admin	OK	Query executed in 3.95 ms.	4.44 ms
+23:43:25.925	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	108.85 ms
+23:43:31.291	127.0.0.1:60617	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.49 ms
+23:43:31.882	127.0.0.1:60617	admin	OK	Query executed in 589.38 ms.	589.8 ms
+23:43:32.890	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.86 ms
+23:43:33.242	127.0.0.1:60617	admin	OK	Query executed in 352.31 ms.	352.66 ms
+23:43:33.690	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.4 ms
+23:43:33.702	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	12.1 ms
+23:43:40.267	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.47 ms
+23:43:40.279	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	12.03 ms
+23:43:45.249	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.79 ms
+23:43:45.256	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	7.04 ms
+23:49:52.781	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.53 ms
+23:49:53.032	127.0.0.1:60617	admin	OK	Query executed in 248.43 ms.	251.91 ms
+23:49:53.518	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.34 ms
+23:49:53.531	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	13.38 ms
+23:49:59.750	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.48 ms
+23:49:59.999	127.0.0.1:60617	admin	OK	Query executed in 247.47 ms.	247.83 ms
+23:50:06.515	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.6 ms
+23:50:06.769	127.0.0.1:60617	admin	OK	Query executed in 252.93 ms.	253.74 ms
+23:50:14.116	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.38 ms
+23:50:14.134	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	18.44 ms
+23:51:25.997	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary')	0.44 ms
+23:51:26.002	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/diary/diary' yields no documents.	61.64 ms
+23:51:26.375	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.39 ms
+23:51:26.378	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	3.54 ms
+23:51:26.704	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.28 ms
+23:51:26.729	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	25.33 ms
+23:51:32.490	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.32 ms
+23:51:32.493	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.86 ms
+23:51:50.609	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary')	0.48 ms
+23:51:50.614	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/diary/diary' yields no documents.	5.96 ms
+23:51:50.958	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css')	0.36 ms
+23:51:50.962	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css' yields no documents.	4.17 ms
+23:51:51.352	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	0.86 ms
+23:51:51.355	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	2.47 ms
+23:51:56.618	127.0.0.1:60617	admin	REQUEST	XQUERY doc('colenso//favicon.ico')	1.33 ms
+23:51:56.622	127.0.0.1:60617	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico' yields no documents.	3.73 ms
+23:56:18.885	127.0.0.1:60757	admin	REQUEST	OPEN Colenso	0.38 ms
+23:56:18.886	127.0.0.1:60757	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.35 ms
+23:56:21.682	127.0.0.1:60757	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.36 ms
+23:56:21.684	127.0.0.1:60757	admin	OK	Query executed in 2.05 ms.	2.3 ms
+23:56:26.997	127.0.0.1:60758	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.46 ms
+23:56:27.861	127.0.0.1:60758	admin	OK	Query executed in 865.1 ms.	865.45 ms
+23:56:29.096	127.0.0.1:60758	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml.xml')	0.28 ms
+23:56:29.100	127.0.0.1:60758	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/diary/diary.xml.xml' yields no documents.	4.47 ms
+23:56:29.472	127.0.0.1:60758	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css.xml')	0.38 ms
+23:56:29.476	127.0.0.1:60758	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css.xml' yields no documents.	3.49 ms
+23:56:29.806	127.0.0.1:60758	admin	REQUEST	XQUERY doc('colenso//favicon.ico.xml')	0.48 ms
+23:56:29.813	127.0.0.1:60758	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico.xml' yields no documents.	6.9 ms
+23:56:36.175	127.0.0.1:60758	admin	REQUEST	XQUERY doc('colenso//favicon.ico.xml')	0.34 ms
+23:56:36.178	127.0.0.1:60758	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico.xml' yields no documents.	2.24 ms
+23:56:39.912	127.0.0.1:60758	admin	REQUEST	XQUERY doc('colenso//Colenso/newspaper_letters/NewsL-0009.xml.xml')	0.64 ms
+23:56:39.918	127.0.0.1:60758	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/newspaper_letters/NewsL-0009.xml.xml' yields no documents.	5.87 ms
+23:56:40.224	127.0.0.1:60758	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css.xml')	0.4 ms
+23:56:40.231	127.0.0.1:60758	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css.xml' yields no documents.	6.75 ms
+23:56:40.567	127.0.0.1:60758	admin	REQUEST	XQUERY doc('colenso//favicon.ico.xml')	0.31 ms
+23:56:40.569	127.0.0.1:60758	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico.xml' yields no documents.	2.19 ms
+23:57:31.939	127.0.0.1:60764	admin	REQUEST	OPEN Colenso	0.43 ms
+23:57:31.939	127.0.0.1:60764	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.31 ms
+23:57:51.666	127.0.0.1:60764	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.35 ms
+23:57:51.668	127.0.0.1:60764	admin	OK	Query executed in 2.01 ms.	2.29 ms
+23:57:56.996	127.0.0.1:60765	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[descendant::text() contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.8 ms
+23:57:57.630	127.0.0.1:60765	admin	OK	Query executed in 634.37 ms.	635.11 ms
+23:57:59.037	127.0.0.1:60765	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml.xml')	0.74 ms
+23:57:59.043	127.0.0.1:60765	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/diary/diary.xml.xml' yields no documents.	5.61 ms
+23:57:59.423	127.0.0.1:60765	admin	REQUEST	XQUERY doc('colenso//Colenso/css/blog.css.xml')	0.72 ms
+23:57:59.428	127.0.0.1:60765	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/css/blog.css.xml' yields no documents.	5.35 ms
+23:57:59.797	127.0.0.1:60765	admin	REQUEST	XQUERY doc('colenso//favicon.ico.xml')	0.28 ms
+23:57:59.799	127.0.0.1:60765	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//favicon.ico.xml' yields no documents.	2.4 ms
+23:59:12.996	127.0.0.1:60770	admin	REQUEST	OPEN Colenso	0.42 ms
+23:59:12.996	127.0.0.1:60770	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.24 ms

@@ -1,20 +1,19 @@
-extends ../node_modules/jade-bootstrap/layouts/cover
+extends ../node_modules/jade-bootstrap/layouts/blog
 
 block body
  +navbar("Colenso Project", "dropdown_menu")
   +nav_item("/", "active") Home
-  +nav_item("/browse") browse
+  +nav_item("/browse") Browse  
+  +nav_item("/admin") Admin
   +nav_item_dropdown("/search")(label = "Search")
    +nav_item("/search") Search
    +nav_item("/xquery") XQuery
    +nav_item("/xpath") XPath
- .container
+ block content
   h1= title
   .container
- p| Welcome to #{title}. We have an excellent collection of videos in stock for you.
- | We are based in !{place}.
- br
+ p| Welcome to #{title}. 
 
 
 
- adsf asdf dfs a Results: #{valueofquery}
+

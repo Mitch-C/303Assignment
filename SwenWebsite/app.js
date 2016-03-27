@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
+var admin = require('./routes/admin');
 var search = require('./routes/search');
 var xquery = require('./routes/xquery');
 var xpath = require('./routes/xpath');
@@ -28,6 +28,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
+app.use('/admin', admin);
 app.use('/search',search);
 app.use('/xpath',xpath);
 app.use('/xquery',xquery);

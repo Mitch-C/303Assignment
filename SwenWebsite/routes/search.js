@@ -21,7 +21,8 @@ router.get('/query',function(req,res,next){
 		//transformation adding the url and the title
 		valueq =  _.map(data,function(val){ //data;
 		return {
-			url: '/search/' + val.path,title: val.title
+			url: '/search/' + val.path.replace('.xml',"/") ,
+			title: val.title
 			};
 		});
 		//render page title and results to the search page

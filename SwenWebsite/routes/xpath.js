@@ -18,7 +18,6 @@ router.get('/query',function(req,res,next){
 		//transformation adding the url and the title
 		valueq =  _.map(data,function(val){
 		return {
-			url: '/xpath/' + val.path,title: val.title
 			};
 		});
 		//render page title and results to the search page

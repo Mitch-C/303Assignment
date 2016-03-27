@@ -65,12 +65,11 @@ client.execute("LIST Colenso",
 			{
 				page_data+="<tr><td><a href=\"../view/?view="+file_paths[i]+"\">"+file_paths[i]+"</a></td></tr>";//generate a link to each doccument in a table.
 			}
-			page_data+="</tbody></table>";
+			//page_data+="</tbody></table>";
 			res.render('browse', {title: 'Colenso Project', results: page_data});
 		}
 	});
 });
-
 
 
 module.exports = router;
