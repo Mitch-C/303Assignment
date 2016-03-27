@@ -1522,3 +1522,63 @@
 20:22:56.198	127.0.0.1:54120	admin	OK	Query executed in 266.98 ms.	267.2 ms
 20:22:56.586	127.0.0.1:54120	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/css/blog.cs.xml')	0.2 ms
 20:22:56.590	127.0.0.1:54120	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/diary/css/blog.cs.xml' yields no documents.	3.48 ms
+20:30:20.055	127.0.0.1:54694	admin	REQUEST	OPEN Colenso	0.26 ms
+20:30:20.055	127.0.0.1:54694	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.24 ms
+20:30:24.549	127.0.0.1:54696	admin	REQUEST	OPEN Colenso	0.28 ms
+20:30:24.549	127.0.0.1:54696	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.18 ms
+20:42:17.628	127.0.0.1:54761	admin	REQUEST	OPEN Colenso	0.4 ms
+20:42:17.628	127.0.0.1:54761	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.27 ms
+20:42:21.261	127.0.0.1:54761	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	22.64 ms
+20:42:21.563	127.0.0.1:54761	admin	OK	Query executed in 302.52 ms.	302.7 ms
+20:42:43.109	127.0.0.1:54762	admin	REQUEST	XQUERY basex.Session.prototype.searchRecord = function(query, type, cb) { this.execute('open search'); var xquery = "XQUERY " + "let $search := <search type='" + type + "'>" + escape(query) + "</search>\n"+ "return insert node $search as last into doc('search')/root"; console.log(xquery); this.execute( xquery, function(err, data) { if (err) { cb(err); return; } cb(undefined, data.result); }); };	0.3 ms
+20:42:44.837	127.0.0.1:54762	admin	ERROR	Stopped at ., 1/49: [XPST0003] Expecting ')', found 'q'.	1728.35 ms
+20:47:16.536	127.0.0.1:54762	admin	REQUEST	XQUERY basex.Session.prototype.searchRecord = function(query, type, cb) { this.execute('open search'); var xquery = "XQUERY " + "let $search := <search type='" + type + "'>" + escape(query) + "</search>\n"+ "return insert node $search as last into doc('search')/root"; console.log(xquery); this.execute( xquery, function(err, data) { if (err) { cb(err); return; } cb(undefined, data.result); }); };	0.42 ms
+20:47:16.539	127.0.0.1:54762	admin	ERROR	Stopped at ., 1/49: [XPST0003] Expecting ')', found 'q'.	2.88 ms
+20:47:45.903	127.0.0.1:54781	admin	REQUEST	OPEN Colenso	0.2 ms
+20:47:45.903	127.0.0.1:54781	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.16 ms
+20:48:09.790	127.0.0.1:54782	admin	REQUEST	XQUERY basex.Session.prototype.searchRecord = function(query, type, cb) { this.execute('open search'); var xquery = "XQUERY " + "let $search := <search type='" + type + "'>" + escape(query) + "</search>\n"+ "return insert node $search as last into doc('search')/root"; console.log(xquery); this.execute( xquery, function(err, data) { if (err) { cb(err); return; } cb(undefined, data.result); }); };	0.41 ms
+20:48:09.794	127.0.0.1:54782	admin	ERROR	Stopped at ., 1/49: [XPST0003] Expecting ')', found 'q'.	3.99 ms
+20:48:21.877	127.0.0.1:54782	admin	REQUEST	LIST Colenso	0.23 ms
+20:48:21.899	127.0.0.1:54782	admin	OK		20.49 ms
+20:48:29.986	127.0.0.1:54782	admin	REQUEST	XQUERY	77.6 ms
+20:48:29.986	127.0.0.1:54782	admin	ERROR	Stopped at , 1/7: Syntax: XQUERY [query] Run XQuery. Runs the specified query and prints the result.	0.05 ms
+20:48:33.768	127.0.0.1:54782	admin	REQUEST	XQUERY basex.Session.prototype.searchRecord = function(query, type, cb) { this.execute('open search'); var xquery = "XQUERY " + "let $search := <search type='" + type + "'>" + escape(query) + "</search>\n"+ "return insert node $search as last into doc('search')/root"; console.log(xquery); this.execute( xquery, function(err, data) { if (err) { cb(err); return; } cb(undefined, data.result); }); };	0.21 ms
+20:48:33.771	127.0.0.1:54782	admin	ERROR	Stopped at ., 1/49: [XPST0003] Expecting ')', found 'q'.	2.76 ms
+20:48:42.466	127.0.0.1:54786	admin	REQUEST	OPEN Colenso	68.34 ms
+20:48:42.466	127.0.0.1:54786	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.21 ms
+23:11:13.331	127.0.0.1:62032	admin	REQUEST	OPEN Colenso	355.56 ms
+23:11:13.479	127.0.0.1:62032	admin	OK	Database 'Colenso' was opened in 32.27 ms.	140.75 ms
+23:11:13.497	127.0.0.1:62032	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	2.65 ms
+23:11:16.509	127.0.0.1:62032	admin	OK	Query executed in 2811.73 ms.	3012.17 ms
+23:11:16.511	127.0.0.1:62032	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	1.25 ms
+23:11:16.621	127.0.0.1:62032	admin	OK	Query executed in 109.72 ms.	110.84 ms
+23:11:26.951	127.0.0.1:62033	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; <result> { for $hit in collection('colenso') where $hit//* return <li path='{ db:path($hit) }' title='{ $hit//*:title }'> { $hit//*} </li> } </result>	117.18 ms
+23:12:34.002	127.0.0.1:62033	admin	OK	Query executed in 66933.15 ms.	67225.26 ms
+23:12:45.130	127.0.0.1:62033	admin	REQUEST	XQUERY doc('colenso//Broughton/private_letters/PrLBrghtn-0001.xml')	47.6 ms
+23:12:45.131	127.0.0.1:62033	admin	OK	Query executed in 1.13 ms.	1.48 ms
+23:12:45.440	127.0.0.1:62033	admin	REQUEST	XQUERY doc('colenso//Broughton/private_letters/css/blog.cs.xml')	0.27 ms
+23:12:45.471	127.0.0.1:62033	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Broughton/private_letters/css/blog.cs.xml' yields no documents.	31.02 ms
+23:12:45.809	127.0.0.1:62033	admin	REQUEST	XQUERY doc('colenso//Broughton/favicon.ic.xml')	0.41 ms
+23:12:45.839	127.0.0.1:62033	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Broughton/favicon.ic.xml' yields no documents.	30.47 ms
+23:13:13.717	127.0.0.1:62033	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[. contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.37 ms
+23:13:15.243	127.0.0.1:62033	admin	OK	Query executed in 1525.52 ms.	1525.85 ms
+23:14:17.515	127.0.0.1:62033	admin	REQUEST	XQUERY y	0.2 ms
+23:14:17.569	127.0.0.1:62033	admin	ERROR	Stopped at ., 1/2: [XPDY0002] y: no context value bound.	52.75 ms
+23:14:33.724	127.0.0.1:62033	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.19 ms
+23:14:34.494	127.0.0.1:62033	admin	OK	Query executed in 769.06 ms.	769.3 ms
+23:16:49.622	127.0.0.1:62071	admin	REQUEST	OPEN Colenso	0.28 ms
+23:16:49.622	127.0.0.1:62071	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.22 ms
+23:22:48.739	127.0.0.1:62072	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.29 ms
+23:22:49.706	127.0.0.1:62072	admin	OK	Query executed in 966.66 ms.	966.93 ms
+23:23:12.926	127.0.0.1:62359	admin	REQUEST	OPEN Colenso	0.19 ms
+23:23:12.926	127.0.0.1:62359	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.14 ms
+23:24:20.745	127.0.0.1:62362	admin	REQUEST	OPEN Colenso	15.95 ms
+23:24:20.745	127.0.0.1:62362	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.17 ms
+23:25:03.628	127.0.0.1:62386	admin	REQUEST	OPEN Colenso	0.27 ms
+23:25:03.628	127.0.0.1:62386	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.17 ms
+23:25:14.751	127.0.0.1:62388	admin	REQUEST	OPEN Colenso	0.19 ms
+23:25:14.751	127.0.0.1:62388	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.14 ms
+23:25:21.909	127.0.0.1:62390	admin	REQUEST	OPEN Colenso	0.16 ms
+23:25:21.909	127.0.0.1:62390	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.14 ms
+23:25:23.247	127.0.0.1:62392	admin	REQUEST	OPEN Colenso	0.2 ms
+23:25:23.247	127.0.0.1:62392	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.12 ms

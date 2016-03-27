@@ -94,9 +94,27 @@ exports.XQuery = function(query, cb) {
                 cb(err);                
             }
             else{
+            client.searchRecord(query,'xquery',function(){}) ;
             cb(undefined, data);
             }
         });
+};
+exports.searchRecord = function(query, type, cb) {
+  client.execute('open search');
+  var xquery = 
+    "XQUERY " +
+    "let $search := <search type='" + type + "'>" + escape(query) + "</search>\n"+
+    "return insert node $search as last into doc('search')/root";
+  console.log(xquery);
+  client.execute(
+    xquery,
+    function(err, data) {
+      if (err) {
+        cb(err);
+        return;
+      }
+      cb(undefined, data.result);
+    });
 };
 
 exports.browseDatabase = function(quer, cb) {
@@ -160,3 +178,4 @@ exports.addDocument = function(path, contents, cb)  {
   });
 
 };
+

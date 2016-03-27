@@ -17,7 +17,7 @@ router.get('/query',function(req,res,next){
 		
 		if(err){
 		console.log(err);
-
+		res.render('xquery', { title: 'Colenso Project', data: err });
 		}
 		else{
 		//render page title and results to the search page
