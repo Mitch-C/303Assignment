@@ -53,13 +53,15 @@ exports.search = function(query, cb) {
 };
 //query for xpath search
 exports.searchXPath = function(query, cb) {
+console.log("xpath query:" + query)
     var myquery =
-        "for $x collection('colenso')\n" +
-        "where $x" + query + "\n" +
-        "return <li path='{ db:path($x) }'>{ $x//*:title }</li>";
+    "for $hit in collection('colenso')\n" +
+    "where $hit" + query + "\n" +
+    "return <li path='{ db:path($hit) }' title='{ $hit//*:title }'> { $hit" + query + "} </li>";
     client.execute("XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0';\n <result> { " + myquery + " } </result> ",
         function(err, data) {
             if (err) {
+                console.log("xpath error:" + err)
                 cb(err);
                 return;
             }
@@ -89,10 +91,11 @@ exports.XQuery = function(query, cb) {
     client.execute("XQUERY " + query,
         function(err, data) {
             if (err) {
-                cb(err);
-                return;
+                cb(err);                
             }
+            else{
             cb(undefined, data);
+            }
         });
 };
 
@@ -113,6 +116,7 @@ exports.browseDatabase = function(quer, cb) {
                     if (result.result.charAt(index) == " ") {
                         if (current_path.charAt(current_path.length - 1) == 'l' && current_path.charAt(current_path.length - 2) == 'm' && current_path.charAt(current_path.length - 3) == 'x' && current_path.charAt(current_path.length - 4) == '.') {
                             file_paths.push(current_path);
+                           // console.log("current path" + current_path)
                         }
                         current_path = "";
                     } else {
@@ -124,8 +128,10 @@ exports.browseDatabase = function(quer, cb) {
                 for (i = 0; i < file_paths.length; i++) //loop through each path
                 {
                     file_paths[i] = file_paths[i].replace(/(\r\n|\n|\r)/gm, ""); //remove every possible type of linebreak from each path.
+                file_paths[i] = file_paths[i].replace('.xml','/');
                 }
-                console.log(file_paths); //TODO display all paths as a link to a new view page which will render the xml doccument.
+                //console.log(file_paths); //TODO display all paths as a link to a new view page which will render the xml doccument.
+                
                 page_data = ""; //variable to store the html to be rendered
                 page_data += "<table class=\"table-striped\">";
                 page_data += "<thead><tr><th>File</th></tr></thead><tbody>"; //head of table

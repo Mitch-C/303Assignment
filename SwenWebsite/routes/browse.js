@@ -43,6 +43,7 @@ client.execute("LIST Colenso",
 					&& current_path.charAt(current_path.length-4)=='.')
 					{
 						file_paths.push(current_path);
+						
 					}
 					current_path="";
 				}
@@ -57,7 +58,7 @@ client.execute("LIST Colenso",
 			{
 				file_paths[i]=file_paths[i].replace(/(\r\n|\n|\r)/gm,"");//remove every possible type of linebreak from each path.
 			}
-			console.log(file_paths);//TODO display all paths as a link to a new view page which will render the xml doccument.
+			//console.log(file_paths);//TODO display all paths as a link to a new view page which will render the xml doccument.
 			page_data="";//variable to store the html to be rendered
 			page_data+="<table class=\"table-striped\">";
 			page_data+="<thead><tr><th>File</th></tr></thead><tbody>";//head of table
