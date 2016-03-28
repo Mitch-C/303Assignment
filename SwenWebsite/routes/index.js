@@ -1,5 +1,4 @@
 //declare namespace tei='http://www.tei-c.org/ns/1.0';
-
 var express = require('express');
 var router = express.Router();
 var basex = require('basex');
@@ -9,28 +8,33 @@ var query = "query has not been set";
 
 
 client.execute("OPEN Colenso");
-router.get("/",function(req,res){
-client.execute("XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0';" +
-" (//name[@type='place'])[1] ",
-function (error, result) {
-if(error){ console.error(error);}
-else {
-res.render('index', { title: 'Colenso Project', place: result.result ,valueofquery : query});
-}
-}
-);
+router.get("/", function(req, res) {
+    client.execute("XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0';" +
+        " (//name[@type='place'])[1] ",
+        function(error, result) {
+            if (error) {
+                console.error(error);
+            } else {
+                res.render('index', {
+                    title: 'Colenso Project',
+                    place: result.result,
+                    valueofquery: query
+                });
+            }
+        }
+    );
 });
 
 /* GET home page. */
 //router.get('/', function(req, res, next) {
-  //res.render('index', { title: 'Express' });
+//res.render('index', { title: 'Express' });
 //});
 //try connecting to server
 console.log(1);
 
 module.exports.myhandler = function(req, res) {
-   query = req.app.locals.query;
- 
+    query = req.app.locals.query;
+
 };
 
 

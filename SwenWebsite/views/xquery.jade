@@ -18,15 +18,14 @@ block body
   
   .container
    p| Welcome to #{title}. Please enter a search to begin
+   p (please be patient i am slow)
  .container
   h2 Search Results
-  .result
-   if valueofquery  && valueofquery .length > 0
-   
-    each val in valueofquery
-     +list-group-item(val.url)          
-       span  #{val.title}
+   +progress-bar(0)
+  .result  
   
+
+   #{valueofquery}
 
 
   

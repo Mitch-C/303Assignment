@@ -8,27 +8,32 @@ var _ = require('underscore');
 /* GET users listing. */
 router.get('/', function(req, res, next) {
 
-  res.render('search', { title: 'Colenso Project' });
-  next();
+    res.render('search', {
+        title: 'Colenso Project'
+    });
+    next();
 });
 
 //retrieve users search 
-router.get('/query',function(req,res,next){
-	//Perform the basex search and render the result 
-	basex.search(req.query.query ,function(err,data){
-		//use underscore to produce a new array of values
-		//mapping each value in the list through a 
-		//transformation adding the url and the title
-		valueq =  _.map(data,function(val){ //data;
-		return {
-			url: '/search/' + val.path.replace('.xml',"/") ,
-			title: val.title
-			};
-		});
-		//render page title and results to the search page
-		res.render('search', { title: 'Colenso Project',valueofquery : valueq });
-		//console.log('value url : ' +valueq.path);
-	});
+router.get('/query', function(req, res, next) {
+    //Perform the basex search and render the result 
+    basex.search(req.query.query, function(err, data) {
+        //use underscore to produce a new array of values
+        //mapping each value in the list through a 
+        //transformation adding the url and the title
+        valueq = _.map(data, function(val) { //data;
+            return {
+                url: '/search/' + val.path.replace('.xml', "/"),
+                title: val.title
+            };
+        });
+        //render page title and results to the search page
+        res.render('search', {
+            title: 'Colenso Project',
+            valueofquery: valueq
+        });
+        //console.log('value url : ' +valueq.path);
+    });
 });
 
 module.exports = router;

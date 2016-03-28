@@ -1,0 +1,367 @@
+11:29:42.620	SERVER	admin	OK	Server was started (port: 1984).
+11:30:35.982	127.0.0.1:63363	admin	REQUEST	OPEN Colenso	5.83 ms
+11:30:35.982	127.0.0.1:63363	admin	OK	Database 'Colenso' was opened in 0.62 ms.	1.66 ms
+11:30:44.653	127.0.0.1:63363	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	11.42 ms
+11:30:45.974	127.0.0.1:63363	admin	OK	Query executed in 1315.48 ms.	1316.11 ms
+11:30:45.975	127.0.0.1:63363	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.97 ms
+11:30:45.998	127.0.0.1:63363	admin	OK	Query executed in 22.35 ms.	22.92 ms
+11:32:12.921	127.0.0.1:63364	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[. contains text 'Y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.64 ms
+11:32:13.958	127.0.0.1:63364	admin	OK	Query executed in 1035.49 ms.	1036.6 ms
+11:32:20.915	127.0.0.1:63364	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[. contains text 'a'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.61 ms
+11:32:21.841	127.0.0.1:63364	admin	OK	Query executed in 925.72 ms.	926.18 ms
+11:32:37.995	127.0.0.1:63364	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; <result> { for $hit in collection('colenso') where $hit//* return <li path='{ db:path($hit) }' title='{ $hit//*:title }'> { $hit//*} </li> } </result>	0.53 ms
+11:32:55.668	127.0.0.1:63364	admin	OK	Query executed in 17672.52 ms.	17673.09 ms
+11:34:38.895	127.0.0.1:63364	admin	REQUEST	XQUERY doc('colenso//Broughton/private_letters/PrLBrghtn-0001.xml')	0.73 ms
+11:34:38.916	127.0.0.1:63364	admin	OK	Query executed in 21.07 ms.	21.76 ms
+11:34:39.291	127.0.0.1:63364	admin	REQUEST	XQUERY doc('colenso//Broughton/private_letters/css/blog.cs.xml')	0.42 ms
+11:34:39.314	127.0.0.1:63364	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Broughton/private_letters/css/blog.cs.xml' yields no documents.	23.29 ms
+11:34:39.630	127.0.0.1:63364	admin	REQUEST	XQUERY doc('colenso//Broughton/favicon.ic.xml')	0.33 ms
+11:34:39.639	127.0.0.1:63364	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Broughton/favicon.ic.xml' yields no documents.	9.38 ms
+11:34:57.506	127.0.0.1:63364	admin	REQUEST	XQUERY //*	0.33 ms
+11:34:57.514	127.0.0.1:63364	admin	ERROR	Stopped at ., 1/2: [XPDY0002] root(): no context value bound.	8.16 ms
+11:35:59.003	127.0.0.1:63364	admin	REQUEST	XQUERY for $x in $collenso return $x	0.56 ms
+11:35:59.014	127.0.0.1:63364	admin	ERROR	Stopped at ., 1/11: [XPST0008] Undefined variable $collenso.	11.6 ms
+11:37:07.720	127.0.0.1:63364	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.56 ms
+11:37:08.612	127.0.0.1:63364	admin	OK	Query executed in 891.22 ms.	891.6 ms
+11:52:07.910	127.0.0.1:63678	admin	REQUEST	OPEN Colenso	0.53 ms
+11:52:07.925	127.0.0.1:63678	admin	OK	Database 'Colenso' was opened in 0.12 ms.	0.54 ms
+11:52:11.047	127.0.0.1:63679	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; for $x in collection('colenso') return $x	0.36 ms
+11:52:11.855	127.0.0.1:63679	admin	OK	Query executed in 807.31 ms.	807.74 ms
+11:53:58.202	127.0.0.1:63726	admin	REQUEST	OPEN Colenso	32.35 ms
+11:53:58.218	127.0.0.1:63726	admin	OK	Database 'Colenso' was opened in 0.09 ms.	0.57 ms
+11:54:01.759	127.0.0.1:63726	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.38 ms
+11:54:02.105	127.0.0.1:63726	admin	OK	Query executed in 345.58 ms.	345.89 ms
+11:54:21.582	127.0.0.1:63727	admin	REQUEST	LIST Colenso	25.91 ms
+11:54:23.521	127.0.0.1:63727	admin	OK		1939.67 ms
+11:54:27.768	127.0.0.1:63727	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/NewsL-0006.xml')	0.45 ms
+11:54:27.793	127.0.0.1:63727	admin	OK	Query executed in 25.3 ms.	25.77 ms
+11:54:28.121	127.0.0.1:63727	admin	REQUEST	XQUERY doc('colenso/Colenso/newspaper_letters/css/blog.cs.xml')	0.39 ms
+11:54:28.150	127.0.0.1:63727	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/newspaper_letters/css/blog.cs.xml' yields no documents.	28.17 ms
+11:54:28.592	127.0.0.1:63727	admin	REQUEST	XQUERY doc('colenso/Colenso/favicon.ic.xml')	0.4 ms
+11:54:28.601	127.0.0.1:63727	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso/Colenso/favicon.ic.xml' yields no documents.	9.38 ms
+11:54:37.361	127.0.0.1:63727	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; for $x in collection('colenso') return $x	0.35 ms
+11:54:38.909	127.0.0.1:63727	admin	OK	Query executed in 1547.93 ms.	1548.34 ms
+12:00:21.728	127.0.0.1:63759	admin	REQUEST	OPEN Colenso	0.52 ms
+12:00:21.728	127.0.0.1:63759	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.34 ms
+12:00:24.068	127.0.0.1:63761	admin	REQUEST	OPEN Colenso	0.27 ms
+12:00:24.068	127.0.0.1:63761	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.19 ms
+12:00:25.098	127.0.0.1:63761	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.55 ms
+12:00:25.101	127.0.0.1:63761	admin	OK	Query executed in 2.65 ms.	2.96 ms
+12:00:34.851	127.0.0.1:63762	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; //NaN	0.43 ms
+12:00:34.861	127.0.0.1:63762	admin	ERROR	Stopped at ., 1/67: [XPDY0002] root(): no context value bound.	9.62 ms
+12:01:28.728	127.0.0.1:63762	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; //NaN	0.45 ms
+12:01:28.736	127.0.0.1:63762	admin	ERROR	Stopped at ., 1/67: [XPDY0002] root(): no context value bound.	8.01 ms
+12:02:36.156	127.0.0.1:63802	admin	REQUEST	OPEN Colenso	0.36 ms
+12:02:36.156	127.0.0.1:63802	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+12:03:00.715	127.0.0.1:63803	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; for $x in collection('Colenso') return $x	0.76 ms
+12:03:01.433	127.0.0.1:63803	admin	OK	Query executed in 717.57 ms.	718.19 ms
+12:03:37.210	127.0.0.1:63809	admin	REQUEST	OPEN Colenso	0.56 ms
+12:03:37.210	127.0.0.1:63809	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.32 ms
+12:03:37.986	127.0.0.1:63809	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.34 ms
+12:03:37.989	127.0.0.1:63809	admin	OK	Query executed in 2.69 ms.	3.23 ms
+12:03:43.279	127.0.0.1:63810	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; y	0.4 ms
+12:03:43.288	127.0.0.1:63810	admin	ERROR	Stopped at ., 1/67: [XPDY0002] {http://www.tei-c.org/ns/1.0}y: no context value bound.	8.43 ms
+12:08:15.061	127.0.0.1:63942	admin	REQUEST	OPEN Colenso	0.39 ms
+12:08:15.061	127.0.0.1:63942	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.23 ms
+12:08:57.007	127.0.0.1:63945	admin	REQUEST	OPEN Colenso	0.51 ms
+12:08:57.007	127.0.0.1:63945	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.31 ms
+12:09:24.541	127.0.0.1:64019	admin	REQUEST	OPEN Colenso	0.39 ms
+12:09:24.541	127.0.0.1:64019	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.29 ms
+12:09:26.006	127.0.0.1:64020	admin	REQUEST	LIST Colenso	0.38 ms
+12:09:26.029	127.0.0.1:64020	admin	OK		23.14 ms
+12:09:32.293	127.0.0.1:64020	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.33 ms
+12:09:32.994	127.0.0.1:64020	admin	OK	Query executed in 700.21 ms.	700.52 ms
+12:10:48.115	127.0.0.1:64071	admin	REQUEST	OPEN Colenso	0.32 ms
+12:10:48.115	127.0.0.1:64071	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.24 ms
+12:10:52.250	127.0.0.1:64071	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.33 ms
+12:10:52.255	127.0.0.1:64071	admin	OK	Query executed in 4.32 ms.	4.69 ms
+12:10:57.585	127.0.0.1:64072	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.75 ms
+12:10:58.284	127.0.0.1:64072	admin	OK	Query executed in 697.85 ms.	698.17 ms
+12:11:11.994	127.0.0.1:64074	admin	REQUEST	OPEN Colenso	0.27 ms
+12:11:11.994	127.0.0.1:64074	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.26 ms
+12:11:35.844	127.0.0.1:64076	admin	REQUEST	OPEN Colenso	0.43 ms
+12:11:35.844	127.0.0.1:64076	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.27 ms
+12:11:41.986	127.0.0.1:64078	admin	REQUEST	OPEN Colenso	0.27 ms
+12:11:41.986	127.0.0.1:64078	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.19 ms
+12:11:42.402	127.0.0.1:64079	admin	REQUEST	LIST Colenso	0.34 ms
+12:11:42.424	127.0.0.1:64079	admin	OK		22.32 ms
+12:11:48.309	127.0.0.1:64079	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.33 ms
+12:11:48.989	127.0.0.1:64079	admin	OK	Query executed in 680.15 ms.	680.58 ms
+12:12:03.798	127.0.0.1:64081	admin	REQUEST	OPEN Colenso	0.3 ms
+12:12:03.799	127.0.0.1:64081	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.23 ms
+12:12:04.513	127.0.0.1:64082	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.34 ms
+12:12:05.194	127.0.0.1:64082	admin	OK	Query executed in 680.91 ms.	681.39 ms
+12:12:47.663	127.0.0.1:64085	admin	REQUEST	OPEN Colenso	0.34 ms
+12:12:47.663	127.0.0.1:64085	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.22 ms
+12:12:52.727	127.0.0.1:64086	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.49 ms
+12:12:53.414	127.0.0.1:64086	admin	OK	Query executed in 686.02 ms.	686.54 ms
+12:12:53.416	127.0.0.1:64086	admin	REQUEST	OPEN search	0.26 ms
+12:12:53.419	127.0.0.1:64086	admin	ERROR	Database 'search' was not found.	3.01 ms
+12:14:13.437	127.0.0.1:64088	admin	REQUEST	OPEN Colenso	0.43 ms
+12:14:13.437	127.0.0.1:64088	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.24 ms
+12:14:26.480	127.0.0.1:64089	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.5 ms
+12:14:27.171	127.0.0.1:64089	admin	OK	Query executed in 690.73 ms.	691.08 ms
+12:14:27.172	127.0.0.1:64089	admin	REQUEST	OPEN search	0.29 ms
+12:14:27.176	127.0.0.1:64089	admin	ERROR	Database 'search' was not found.	3.67 ms
+12:14:27.176	127.0.0.1:64089	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.3 ms
+12:14:27.270	127.0.0.1:64089	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	94.37 ms
+12:16:58.553	127.0.0.1:64112	admin	REQUEST	OPEN Colenso	0.36 ms
+12:16:58.553	127.0.0.1:64112	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.26 ms
+12:17:18.115	127.0.0.1:64114	admin	REQUEST	OPEN Colenso	0.29 ms
+12:17:18.116	127.0.0.1:64114	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+12:17:19.503	127.0.0.1:64114	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.33 ms
+12:17:19.506	127.0.0.1:64114	admin	OK	Query executed in 2.0 ms.	2.25 ms
+12:17:24.251	127.0.0.1:64115	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.31 ms
+12:17:25.012	127.0.0.1:64115	admin	OK	Query executed in 761.24 ms.	761.55 ms
+12:17:25.012	127.0.0.1:64115	admin	REQUEST	OPEN search	0.31 ms
+12:17:25.016	127.0.0.1:64115	admin	ERROR	Database 'search' was not found.	3.73 ms
+12:17:25.017	127.0.0.1:64115	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.38 ms
+12:17:25.044	127.0.0.1:64115	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	27.57 ms
+12:18:38.275	127.0.0.1:64119	admin	REQUEST	OPEN Colenso	0.43 ms
+12:18:38.275	127.0.0.1:64119	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.27 ms
+12:18:38.774	127.0.0.1:64120	admin	REQUEST	LIST Colenso	0.35 ms
+12:18:38.797	127.0.0.1:64120	admin	OK		23.0 ms
+12:18:45.404	127.0.0.1:64120	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.37 ms
+12:18:46.210	127.0.0.1:64120	admin	OK	Query executed in 805.71 ms.	806.05 ms
+12:18:46.211	127.0.0.1:64120	admin	REQUEST	OPEN search	0.48 ms
+12:18:46.214	127.0.0.1:64120	admin	ERROR	Database 'search' was not found.	3.3 ms
+12:18:46.215	127.0.0.1:64120	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.78 ms
+12:18:46.243	127.0.0.1:64120	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	27.63 ms
+12:19:12.295	127.0.0.1:64123	admin	REQUEST	OPEN Colenso	0.42 ms
+12:19:12.295	127.0.0.1:64123	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.25 ms
+12:19:23.072	127.0.0.1:64123	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.39 ms
+12:19:23.075	127.0.0.1:64123	admin	OK	Query executed in 2.69 ms.	3.01 ms
+12:19:28.156	127.0.0.1:64124	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.3 ms
+12:19:28.899	127.0.0.1:64124	admin	OK	Query executed in 743.54 ms.	743.85 ms
+12:19:28.900	127.0.0.1:64124	admin	REQUEST	OPEN search	0.34 ms
+12:19:28.901	127.0.0.1:64124	admin	ERROR	Database 'search' was not found.	1.32 ms
+12:19:28.902	127.0.0.1:64124	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.39 ms
+12:19:28.911	127.0.0.1:64124	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	9.2 ms
+12:20:51.000	127.0.0.1:64128	admin	REQUEST	OPEN Colenso	0.4 ms
+12:20:51.000	127.0.0.1:64128	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.23 ms
+12:21:07.363	127.0.0.1:64129	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.51 ms
+12:21:08.196	127.0.0.1:64129	admin	OK	Query executed in 832.68 ms.	833.06 ms
+12:21:08.197	127.0.0.1:64129	admin	REQUEST	OPEN search	0.61 ms
+12:21:08.199	127.0.0.1:64129	admin	ERROR	Database 'search' was not found.	1.7 ms
+12:21:08.200	127.0.0.1:64129	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.25 ms
+12:21:08.208	127.0.0.1:64129	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	9.14 ms
+12:22:15.643	127.0.0.1:64150	admin	REQUEST	OPEN Colenso	0.36 ms
+12:22:15.644	127.0.0.1:64150	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.24 ms
+12:22:33.012	127.0.0.1:64153	admin	REQUEST	OPEN Colenso	54.21 ms
+12:22:33.067	127.0.0.1:64153	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.24 ms
+12:22:37.667	127.0.0.1:64154	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.34 ms
+12:22:38.494	127.0.0.1:64154	admin	OK	Query executed in 826.16 ms.	826.47 ms
+12:22:38.495	127.0.0.1:64154	admin	REQUEST	OPEN search	0.32 ms
+12:22:38.496	127.0.0.1:64154	admin	ERROR	Database 'search' was not found.	1.38 ms
+12:22:38.496	127.0.0.1:64154	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.33 ms
+12:22:38.505	127.0.0.1:64154	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	8.55 ms
+12:22:46.972	127.0.0.1:64156	admin	REQUEST	OPEN Colenso	0.33 ms
+12:22:46.972	127.0.0.1:64156	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.26 ms
+12:22:51.022	127.0.0.1:64157	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.33 ms
+12:22:51.815	127.0.0.1:64157	admin	OK	Query executed in 793.05 ms.	793.37 ms
+12:22:51.816	127.0.0.1:64157	admin	REQUEST	OPEN search	0.23 ms
+12:22:51.818	127.0.0.1:64157	admin	ERROR	Database 'search' was not found.	2.2 ms
+12:22:51.818	127.0.0.1:64157	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.29 ms
+12:22:51.827	127.0.0.1:64157	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	8.88 ms
+12:25:06.725	127.0.0.1:64180	admin	REQUEST	OPEN Colenso	0.37 ms
+12:25:06.725	127.0.0.1:64180	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.35 ms
+12:25:07.325	127.0.0.1:64181	admin	REQUEST	XQUERY for $x in doc("PrLBrghtn-0001") reuturn $x/title	0.31 ms
+12:25:07.328	127.0.0.1:64181	admin	ERROR	Stopped at ., 1/33: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	3.26 ms
+12:25:24.070	127.0.0.1:64181	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.34 ms
+12:25:24.987	127.0.0.1:64181	admin	OK	Query executed in 834.69 ms.	915.85 ms
+12:25:24.987	127.0.0.1:64181	admin	REQUEST	OPEN search	0.36 ms
+12:25:24.988	127.0.0.1:64181	admin	ERROR	Database 'search' was not found.	1.38 ms
+12:25:24.990	127.0.0.1:64181	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	1.72 ms
+12:25:25.000	127.0.0.1:64181	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	9.11 ms
+12:26:03.850	127.0.0.1:64184	admin	REQUEST	OPEN Colenso	0.4 ms
+12:26:03.850	127.0.0.1:64184	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.21 ms
+12:26:06.971	127.0.0.1:64185	admin	REQUEST	XQUERY for $x in doc("PrLBrghtn-0001") reuturn $x/title	0.33 ms
+12:26:06.977	127.0.0.1:64185	admin	ERROR	Stopped at ., 1/33: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	5.71 ms
+12:26:30.726	127.0.0.1:64185	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.53 ms
+12:26:31.554	127.0.0.1:64185	admin	OK	Query executed in 827.6 ms.	827.97 ms
+12:26:31.554	127.0.0.1:64185	admin	REQUEST	OPEN search	0.35 ms
+12:26:31.556	127.0.0.1:64185	admin	ERROR	Database 'search' was not found.	1.56 ms
+12:26:31.557	127.0.0.1:64185	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	1.54 ms
+12:26:31.565	127.0.0.1:64185	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	7.76 ms
+12:26:49.480	127.0.0.1:64201	admin	REQUEST	OPEN Colenso	0.35 ms
+12:26:49.480	127.0.0.1:64201	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.19 ms
+12:27:56.260	127.0.0.1:64204	admin	REQUEST	OPEN Colenso	0.27 ms
+12:27:56.260	127.0.0.1:64204	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.23 ms
+12:27:57.631	127.0.0.1:64205	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.3 ms
+12:27:58.468	127.0.0.1:64205	admin	OK	Query executed in 837.05 ms.	837.54 ms
+12:27:58.469	127.0.0.1:64205	admin	REQUEST	OPEN search	0.35 ms
+12:27:58.475	127.0.0.1:64205	admin	ERROR	Database 'search' was not found.	5.71 ms
+12:27:58.476	127.0.0.1:64205	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.44 ms
+12:27:58.499	127.0.0.1:64205	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	23.63 ms
+12:29:09.834	127.0.0.1:64210	admin	REQUEST	OPEN Colenso	0.37 ms
+12:29:09.834	127.0.0.1:64210	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.26 ms
+12:29:13.228	127.0.0.1:64211	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.31 ms
+12:29:14.098	127.0.0.1:64211	admin	OK	Query executed in 868.29 ms.	868.65 ms
+12:29:14.098	127.0.0.1:64211	admin	REQUEST	OPEN search	0.21 ms
+12:29:14.099	127.0.0.1:64211	admin	ERROR	Database 'search' was not found.	1.03 ms
+12:29:14.100	127.0.0.1:64211	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.22 ms
+12:29:14.109	127.0.0.1:64211	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	9.64 ms
+12:30:45.356	127.0.0.1:64259	admin	REQUEST	OPEN Colenso	0.39 ms
+12:30:45.357	127.0.0.1:64259	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.28 ms
+12:30:45.694	127.0.0.1:64259	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.42 ms
+12:30:45.696	127.0.0.1:64259	admin	OK	Query executed in 2.09 ms.	2.36 ms
+12:31:34.341	127.0.0.1:64264	admin	REQUEST	OPEN Colenso	0.45 ms
+12:31:34.341	127.0.0.1:64264	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.21 ms
+12:31:49.825	127.0.0.1:64265	admin	REQUEST	LIST Colenso	0.35 ms
+12:31:49.848	127.0.0.1:64265	admin	OK		22.52 ms
+12:31:55.891	127.0.0.1:64265	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.34 ms
+12:31:56.604	127.0.0.1:64265	admin	OK	Query executed in 711.6 ms.	711.98 ms
+12:31:56.608	127.0.0.1:64265	admin	REQUEST	OPEN search	0.3 ms
+12:31:56.610	127.0.0.1:64265	admin	ERROR	Database 'search' was not found.	1.97 ms
+12:31:56.612	127.0.0.1:64265	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.5 ms
+12:31:56.619	127.0.0.1:64265	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	7.12 ms
+12:35:14.237	127.0.0.1:64265	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.53 ms
+12:35:15.023	127.0.0.1:64265	admin	OK	Query executed in 785.62 ms.	785.97 ms
+12:35:15.024	127.0.0.1:64265	admin	REQUEST	OPEN search	0.27 ms
+12:35:15.025	127.0.0.1:64265	admin	ERROR	Database 'search' was not found.	1.56 ms
+12:35:15.026	127.0.0.1:64265	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.55 ms
+12:35:15.040	127.0.0.1:64265	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	14.49 ms
+12:35:26.496	127.0.0.1:64311	admin	REQUEST	OPEN Colenso	0.32 ms
+12:35:26.496	127.0.0.1:64311	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.27 ms
+12:38:10.877	127.0.0.1:64356	admin	REQUEST	OPEN Colenso	0.32 ms
+12:38:10.877	127.0.0.1:64356	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.2 ms
+12:38:46.564	127.0.0.1:64358	admin	REQUEST	OPEN Colenso	0.3 ms
+12:38:46.564	127.0.0.1:64358	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.2 ms
+12:41:05.440	127.0.0.1:64488	admin	REQUEST	OPEN Colenso	0.37 ms
+12:41:05.456	127.0.0.1:64488	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.38 ms
+12:41:33.781	127.0.0.1:64490	admin	REQUEST	OPEN Colenso	0.36 ms
+12:41:33.781	127.0.0.1:64490	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.23 ms
+12:43:18.544	127.0.0.1:64528	admin	REQUEST	OPEN Colenso	0.4 ms
+12:43:18.544	127.0.0.1:64528	admin	OK	Database 'Colenso' was opened in 0.05 ms.	0.21 ms
+12:43:37.928	127.0.0.1:64530	admin	REQUEST	OPEN Colenso	0.28 ms
+12:43:37.928	127.0.0.1:64530	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.21 ms
+12:44:12.445	127.0.0.1:64532	admin	REQUEST	OPEN Colenso	0.29 ms
+12:44:12.445	127.0.0.1:64532	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.19 ms
+12:44:30.436	127.0.0.1:64533	admin	REQUEST	LIST Colenso	0.39 ms
+12:44:30.461	127.0.0.1:64533	admin	OK		24.38 ms
+13:21:15.373	127.0.0.1:65082	admin	REQUEST	OPEN Colenso	0.33 ms
+13:21:15.373	127.0.0.1:65082	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.31 ms
+13:22:57.416	127.0.0.1:65083	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.72 ms
+13:22:58.215	127.0.0.1:65083	admin	OK	Query executed in 798.05 ms.	798.48 ms
+13:22:58.216	127.0.0.1:65083	admin	REQUEST	OPEN search	0.3 ms
+13:22:58.217	127.0.0.1:65083	admin	ERROR	Database 'search' was not found.	1.44 ms
+13:22:58.218	127.0.0.1:65083	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.52 ms
+13:22:58.230	127.0.0.1:65083	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	12.19 ms
+13:24:30.195	127.0.0.1:65093	admin	REQUEST	OPEN Colenso	0.49 ms
+13:24:30.195	127.0.0.1:65093	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.29 ms
+13:24:50.396	127.0.0.1:65094	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.53 ms
+13:24:51.605	127.0.0.1:65094	admin	OK	Query executed in 1209.79 ms.	1210.31 ms
+13:24:51.609	127.0.0.1:65094	admin	REQUEST	OPEN search	0.46 ms
+13:24:51.610	127.0.0.1:65094	admin	ERROR	Database 'search' was not found.	1.36 ms
+13:24:51.611	127.0.0.1:65094	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.44 ms
+13:24:51.618	127.0.0.1:65094	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	7.45 ms
+13:25:59.387	127.0.0.1:65094	admin	REQUEST	XQUERY for $x in collection('colenso') return $x	0.77 ms
+13:26:00.097	127.0.0.1:65094	admin	OK	Query executed in 709.1 ms.	709.55 ms
+13:26:00.097	127.0.0.1:65094	admin	REQUEST	OPEN search	0.22 ms
+13:26:00.098	127.0.0.1:65094	admin	ERROR	Database 'search' was not found.	1.07 ms
+13:26:00.099	127.0.0.1:65094	admin	REQUEST	XQUERY let $search := <search type='xquery'>for $x in collection('colenso') return $x</search> return insert node $search as last into doc('search')/root	0.29 ms
+13:26:00.258	127.0.0.1:65094	admin	ERROR	Stopped at ., 2/44: [FODC0002] Resource 'C:/Users/Mitchell/SwenWebsite/basex/bin/search' does not exist.	159.03 ms
+13:29:48.681	127.0.0.1:65093	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.74 ms
+13:29:48.685	127.0.0.1:65093	admin	OK	Query executed in 3.67 ms.	4.08 ms
+13:29:59.671	127.0.0.1:65094	admin	REQUEST	OPEN colenso	0.38 ms
+13:29:59.671	127.0.0.1:65094	admin	OK	Database 'colenso' was opened in 0.04 ms.	0.25 ms
+13:29:59.750	127.0.0.1:65094	admin	REQUEST	ADD TO undefined [...]	79.32 ms
+13:30:02.753	127.0.0.1:65094	admin	OK	Resource(s) added in 2984.66 ms.	3001.82 ms
+13:30:02.778	127.0.0.1:65094	admin	REQUEST	LIST Colenso	0.56 ms
+13:30:02.846	127.0.0.1:65094	admin	OK		68.54 ms
+13:30:06.743	127.0.0.1:65093	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.38 ms
+13:30:07.033	127.0.0.1:65093	admin	OK	Query executed in 290.12 ms.	290.43 ms
+13:30:13.527	127.0.0.1:65094	admin	REQUEST	OPEN colenso	0.48 ms
+13:30:13.528	127.0.0.1:65094	admin	OK	Database 'colenso' was opened in 0.14 ms.	0.66 ms
+13:30:13.528	127.0.0.1:65094	admin	REQUEST	ADD TO undefined [...]	0.17 ms
+13:30:13.575	127.0.0.1:65094	admin	OK	Resource(s) added in 46.24 ms.	46.7 ms
+13:30:13.592	127.0.0.1:65094	admin	REQUEST	LIST Colenso	0.28 ms
+13:30:13.612	127.0.0.1:65094	admin	OK		20.12 ms
+13:39:58.492	127.0.0.1:65093	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.46 ms
+13:39:58.507	127.0.0.1:65093	admin	OK	Query executed in 15.09 ms.	15.44 ms
+13:40:04.905	127.0.0.1:65094	admin	REQUEST	XQUERY <result> { for $x in collection('colenso') where $x//*:text[. contains text 'y'] return <li path='{ db:path($x) }'>{ $x//*:title }</li> } </result>	0.98 ms
+13:40:07.491	127.0.0.1:65094	admin	OK	Query executed in 2585.21 ms.	2586.72 ms
+13:40:08.986	127.0.0.1:65094	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/diary.xml')	0.72 ms
+13:40:09.181	127.0.0.1:65094	admin	OK	Query executed in 194.38 ms.	194.84 ms
+13:40:09.536	127.0.0.1:65094	admin	REQUEST	XQUERY doc('colenso//Colenso/diary/css/blog.cs.xml')	0.26 ms
+13:40:09.675	127.0.0.1:65094	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/diary/css/blog.cs.xml' yields no documents.	139.27 ms
+13:40:16.869	127.0.0.1:65094	admin	REQUEST	XQUERY doc('colenso//Colenso/favicon.ic.xml')	0.31 ms
+13:40:16.872	127.0.0.1:65094	admin	ERROR	Stopped at ., 1/4: [bxerr:BXDB0006] Database path 'colenso//Colenso/favicon.ic.xml' yields no documents.	2.67 ms
+13:52:25.397	127.0.0.1:65500	admin	REQUEST	OPEN Colenso	0.92 ms
+13:52:25.397	127.0.0.1:65500	admin	OK	Database 'Colenso' was opened in 0.1 ms.	0.67 ms
+13:52:52.359	127.0.0.1:65502	admin	REQUEST	OPEN Colenso	0.3 ms
+13:52:52.359	127.0.0.1:65502	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.21 ms
+13:53:00.906	127.0.0.1:65504	admin	REQUEST	OPEN Colenso	0.26 ms
+13:53:00.906	127.0.0.1:65504	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.18 ms
+13:53:09.994	127.0.0.1:65506	admin	REQUEST	OPEN Colenso	0.25 ms
+13:53:09.994	127.0.0.1:65506	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.19 ms
+13:53:19.556	127.0.0.1:65508	admin	REQUEST	OPEN Colenso	0.3 ms
+13:53:19.556	127.0.0.1:65508	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.18 ms
+13:53:43.632	127.0.0.1:65515	admin	REQUEST	OPEN Colenso	0.34 ms
+13:53:43.632	127.0.0.1:65515	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.2 ms
+13:53:53.215	127.0.0.1:65519	admin	REQUEST	OPEN Colenso	0.25 ms
+13:53:53.215	127.0.0.1:65519	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.18 ms
+13:54:09.620	127.0.0.1:65527	admin	REQUEST	OPEN Colenso	0.27 ms
+13:54:09.620	127.0.0.1:65527	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.18 ms
+13:54:19.156	127.0.0.1:65530	admin	REQUEST	OPEN Colenso	0.26 ms
+13:54:19.156	127.0.0.1:65530	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.2 ms
+13:54:40.454	127.0.0.1:65533	admin	REQUEST	OPEN Colenso	0.26 ms
+13:54:40.454	127.0.0.1:65533	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.17 ms
+13:54:42.886	127.0.0.1:65534	admin	REQUEST	LIST Colenso	0.28 ms
+13:54:42.905	127.0.0.1:65534	admin	OK		18.82 ms
+13:55:01.252	127.0.0.1:49158	admin	REQUEST	OPEN Colenso	0.44 ms
+13:55:01.252	127.0.0.1:49158	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+13:55:02.841	127.0.0.1:49159	admin	REQUEST	LIST Colenso	72.13 ms
+13:55:02.866	127.0.0.1:49159	admin	OK		25.22 ms
+13:55:15.566	127.0.0.1:49162	admin	REQUEST	OPEN Colenso	0.24 ms
+13:55:15.567	127.0.0.1:49162	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.19 ms
+13:55:43.974	127.0.0.1:49165	admin	REQUEST	OPEN Colenso	0.35 ms
+13:55:43.974	127.0.0.1:49165	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.18 ms
+13:56:13.436	127.0.0.1:49167	admin	REQUEST	OPEN Colenso	46.16 ms
+13:56:13.482	127.0.0.1:49167	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.25 ms
+13:56:16.910	127.0.0.1:49167	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.3 ms
+13:56:16.923	127.0.0.1:49167	admin	OK	Query executed in 13.51 ms.	13.78 ms
+13:56:19.366	127.0.0.1:49168	admin	REQUEST	LIST Colenso	0.35 ms
+13:56:19.385	127.0.0.1:49168	admin	OK		18.6 ms
+13:56:33.636	127.0.0.1:49171	admin	REQUEST	OPEN Colenso	0.25 ms
+13:56:33.636	127.0.0.1:49171	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.17 ms
+13:56:56.364	127.0.0.1:49171	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.29 ms
+13:56:56.380	127.0.0.1:49171	admin	OK	Query executed in 15.24 ms.	15.56 ms
+13:56:58.145	127.0.0.1:49172	admin	REQUEST	LIST Colenso	64.94 ms
+13:56:58.242	127.0.0.1:49172	admin	OK		32.46 ms
+13:58:29.193	127.0.0.1:49172	admin	REQUEST	LIST Colenso	0.56 ms
+13:58:29.211	127.0.0.1:49172	admin	OK		18.74 ms
+13:58:57.700	127.0.0.1:49172	admin	REQUEST	LIST Colenso	0.32 ms
+13:58:57.720	127.0.0.1:49172	admin	OK		20.02 ms
+13:59:08.311	127.0.0.1:49172	admin	REQUEST	LIST Colenso	0.51 ms
+13:59:08.329	127.0.0.1:49172	admin	OK		18.54 ms
+14:00:14.394	127.0.0.1:49203	admin	REQUEST	OPEN Colenso	0.41 ms
+14:00:14.395	127.0.0.1:49203	admin	OK	Database 'Colenso' was opened in 0.08 ms.	0.32 ms
+14:00:34.030	127.0.0.1:49204	admin	REQUEST	LIST Colenso	0.35 ms
+14:00:34.051	127.0.0.1:49204	admin	OK		21.33 ms
+14:00:35.646	127.0.0.1:49203	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.36 ms
+14:00:35.666	127.0.0.1:49203	admin	OK	Query executed in 19.06 ms.	19.35 ms
+14:00:47.527	127.0.0.1:49204	admin	REQUEST	LIST Colenso	0.35 ms
+14:00:47.548	127.0.0.1:49204	admin	OK		21.05 ms
+14:00:57.534	127.0.0.1:49212	admin	REQUEST	OPEN Colenso	0.25 ms
+14:00:57.534	127.0.0.1:49212	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.2 ms
+14:01:20.841	127.0.0.1:49212	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.34 ms
+14:01:21.018	127.0.0.1:49212	admin	OK	Query executed in 176.08 ms.	176.37 ms
+14:01:23.405	127.0.0.1:49213	admin	REQUEST	LIST Colenso	0.29 ms
+14:01:23.551	127.0.0.1:49213	admin	OK		146.82 ms
+14:01:40.299	127.0.0.1:49216	admin	REQUEST	OPEN Colenso	0.26 ms
+14:01:40.299	127.0.0.1:49216	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.16 ms
+14:02:17.610	127.0.0.1:49219	admin	REQUEST	OPEN Colenso	40.43 ms
+14:02:17.641	127.0.0.1:49219	admin	OK	Database 'Colenso' was opened in 0.06 ms.	0.42 ms
+14:02:22.272	127.0.0.1:49221	admin	REQUEST	OPEN Colenso	0.24 ms
+14:02:22.272	127.0.0.1:49221	admin	OK	Database 'Colenso' was opened in 0.03 ms.	0.16 ms
+14:02:30.646	127.0.0.1:49223	admin	REQUEST	OPEN Colenso	0.34 ms
+14:02:30.646	127.0.0.1:49223	admin	OK	Database 'Colenso' was opened in 0.04 ms.	0.21 ms
+14:03:08.825	127.0.0.1:49223	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.55 ms
+14:03:08.843	127.0.0.1:49223	admin	OK	Query executed in 17.69 ms.	18.02 ms
+14:03:28.166	127.0.0.1:49224	admin	REQUEST	LIST Colenso	0.27 ms
+14:03:28.184	127.0.0.1:49224	admin	OK		18.24 ms
+14:03:38.188	127.0.0.1:49238	admin	REQUEST	OPEN Colenso	0.62 ms
+14:03:38.203	127.0.0.1:49238	admin	OK	Database 'Colenso' was opened in 0.08 ms.	10.41 ms
+14:04:18.588	127.0.0.1:49238	admin	REQUEST	XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0'; (//name[@type='place'])[1]	0.57 ms
+14:04:18.610	127.0.0.1:49238	admin	OK	Query executed in 21.43 ms.	21.78 ms
