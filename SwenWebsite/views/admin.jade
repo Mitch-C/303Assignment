@@ -1,24 +1,61 @@
-extends ../node_modules/jade-bootstrap/layouts/blog
-
+extends ../node_modules/jade-bootstrap/layouts/carousel
 block body
- +navbar("Colenso Project", "dropdown_menu")
-  +nav_item("/") Home  
-  +nav_item("/browse") Browse
-  +nav_item("/admin","active") Admin
-  +nav_item_dropdown("/search")(label = "Search")
-   +nav_item("/search","active") Search
-   +nav_item("/xquery") XQuery
-   +nav_item("/xpath") XPath
- 
- .container   
-  h2 Add new letter
-  form.form-horizontal(action="admin/new", method="post", enctype="multipart/form-data")
-   label.control-label(for="file") Document to upload
-   input(type="file", name="newDoc", required="true")
-   br
-   button.btn.btn-default(type="submit", name="submit") Upload Document
-
-      
-
-
- 
+  .navbar-wrapper
+    .container
+      nav.navbar.navbar-inverse.navbar-static-top
+        .container
+          .navbar-header
+            button(type="button" ,class="navbar-toggle collapsed", data-toggle="collapse", data-target="#navbar" ,aria-expanded="false", aria-controls="navbar")
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            
+            a(class="navbar-brand", href="/" ) Colenso Project
+          #navbar.navbar-collapse.collapse
+            ul.nav.navbar-nav
+              li
+                a(href="/") Home
+              li.active
+                a(href="/browse") Browse
+              li
+                a(href="/admin") Admin
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+                  | Search 
+                  span.caret
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/search') Search
+                  li
+                    a(href='/xpath') XPath
+                  li
+                    a(href='/xquery') XQuery
+                    // START THE FEATURETTES
+      br              
+      hr.featurette-divider
+      .row.featurette
+        .col-md-7
+          
+            h1 !{title}  
+            h2 Add new letter
+            form.form-horizontal(action="admin/new", method="post", enctype="multipart/form-data")
+            label.control-label(for="file") Document to upload
+            input(type="file", name="newDoc", required="true")
+            br
+            button.btn.btn-default(type="submit", name="submit") Upload Document   
+       hr.featurette-divider  
+    // /END THE FEATURETTES
+    // FOOTER
+    br
+    footer
+    
+      <p align = "center">
+      | © 2016 Mitchell Coad Swen303 Assignment 1
+      |  ·
+      <p align = "center">
+      a(href='/') Home
+      |  · 
+      a(href='/browse') browse
+      |  · 
+      a(href='/admin') Admin
