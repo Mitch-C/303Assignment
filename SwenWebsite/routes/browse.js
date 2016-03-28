@@ -11,6 +11,9 @@ router.get('/', function(req, res, next) {
         if (err) {
             console.log(err);
         }
+        for( i = 0 ; i <10;i++){
+        	if(data[i].indexOf("colenso")>=0){console.log('this is a colenso file :' + data[i])}
+        }
         res.render('browse', {
             title: 'Colenso Project',
             results: data

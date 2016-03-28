@@ -16,9 +16,9 @@ block body
             ul.nav.navbar-nav
               li
                 a(href="/") Home
-              li.active
-                a(href="/browse") Browse
               li
+                a(href="/browse") Browse
+              li.active
                 a(href="/admin") Admin
               li.dropdown
                 a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
@@ -39,11 +39,12 @@ block body
           
             h1 !{title}  
             h2 Add new letter
-            form.form-horizontal(action="admin/new", method="post", enctype="multipart/form-data")
-            label.control-label(for="file") Document to upload
-            input(type="file", name="newDoc", required="true")
-            br
-            button.btn.btn-default(type="submit", name="submit") Upload Document   
+    .container
+      form.form-horizontal(action="admin/new", method="post", enctype="multipart/form-data")
+        label.control-label(for="file") Document to upload
+        input(type="file", name="newDoc", required="true")
+        br
+        button.btn.btn-default(type="submit", name="submit") Upload Document   
        hr.featurette-divider  
     // /END THE FEATURETTES
     // FOOTER

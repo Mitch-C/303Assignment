@@ -18,6 +18,7 @@ router.post('/new', upload.single('newDoc'), function(req, res, next) {
     fs.readFile(req.file.path, function(err, data) {
         if (err) {
             console.log(err);
+              console.log("ERROR ADDING FILE :" +err);
             req.session.error = err;
             res.redirect('/admin');
             return;
@@ -26,6 +27,7 @@ router.post('/new', upload.single('newDoc'), function(req, res, next) {
             if (err) {
                 console.log(err);
                 //req.session.error = err;
+                console.log("ERROR ADDING FILE :" +err);
                 res.redirect('/admin');
                 return;
             }

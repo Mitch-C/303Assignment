@@ -9,17 +9,17 @@ var client = new basex.Session("127.0.0.1", 1984, "admin", "admin");
 //query for search
 
 
-function logicalOperator(query) {
-    query = query.replace(/'/, "\\'");
-    query = "'" + query + "'";
-    query = query.replace(/\s+AND\s+/g, "\' ftand \'");
-    query = query.replace(/\s+OR\s+/g, "\' ftor \'");
-    query = query.replace(/\s+NOT\s+/g, "\' ftand ftnot \'");
-    query = query.replace(/\s+NOR\s+/g, "\' ftor ftnot \'");
-    console.log("query with logic removed" + query);
-    return query;
+function logicalOperator(q) {
+    q = q.replace(/'/, "\\'");
+    q = "'" + q + "'";
+    q = q.replace(/\s+AND\s+/g, "\' ftand \'");
+    q = q.replace(/\s+OR\s+/g, "\' ftor \'");
+    q = q.replace(/\s+NOT\s+/g, "\' ftand ftnot \'");
+    q = q.replace(/\s+NOR\s+/g, "\' ftor ftnot \'");
+    console.log("query with logic removed" + q);
+    return q;
 }
-exports.search = function(query, cb) {
+exports.search = function(query, callb) {
     // console.log("is it removing properly " +query )
     // query = logicalOperator(query)
     var tempq = logicalOperator(query);
@@ -33,7 +33,7 @@ exports.search = function(query, cb) {
         function(err, data) {
             if (err) {
                 console.log('ERROR');
-                cb(err);
+                callb(err);
                 return;
             }
 
@@ -47,12 +47,12 @@ exports.search = function(query, cb) {
                     path: cher(this).attr('path')
                 };
             });
-            cb(undefined, querylist);
+            callb(undefined, querylist);
         });
     //console.log( 'print value of query'  );
 };
 //query for xpath search
-exports.searchXPath = function(query, cb) {
+exports.searchXPath = function(query, callb) {
     console.log("xpath query:" + query)
     var myquery =
         "for $hit in collection('colenso')\n" +
@@ -62,7 +62,7 @@ exports.searchXPath = function(query, cb) {
         function(err, data) {
             if (err) {
                 console.log("xpath error:" + err)
-                cb(err);
+                callb(err);
                 return;
             }
             var cher = cheerio.load(data.result);
@@ -73,28 +73,28 @@ exports.searchXPath = function(query, cb) {
                     path: cher(this).attr('path')
                 };
             });
-            cb(undefined, querylist);
+            callb(undefined, querylist);
         });
 };
 
-exports.getDocument = function(path, cb) {
+exports.getDocument = function(path, callb) {
     client.execute("XQUERY doc('colenso" + (path + '.xml') + "')",
         function(err, data) {
             if (err) {
-                cb(err);
+                callb(err);
                 return;
             }
-            cb(undefined, data.result);
+            callb(undefined, data.result);
         });
 };
-exports.searchRecord = function(query, type, cb) {
+exports.searchRecord = function(query, type, callb) {
 
 };
-exports.XQuery = function(query, cb) {
+exports.XQuery = function(query, callb) {
     client.execute("XQUERY " + query,
         function(err, data) {
             if (err) {
-                cb(err);
+                callb(err);
             } else {
                 client.execute('open search');
                 var xquery =
@@ -107,23 +107,23 @@ exports.XQuery = function(query, cb) {
                     function(err, data) {
                         if (err) {
                             console.log("CALLBACK ERROR")
-                            cb(err);
+                            callb(err);
 
                             return;
                         }
                         console.log("REACHED CALLBACK" + data.result);
                         progressBarVal++;
 
-                        cb(undefined, data.result);
+                        callb(undefined, data.result);
                     });
                 console.log("REACHED CALLBACK??????? data = " + data.result);
-                cb(undefined, data);
+                callb(undefined, data);
             }
         });
 };
 
 
-exports.browseDatabase = function(quer, cb) {
+exports.browseDatabase = function(quer, callb) {
     client.execute("LIST Colenso",
         function(error, result) {
             if (error) {} else {
@@ -154,12 +154,12 @@ exports.browseDatabase = function(quer, cb) {
                     //add href link
                     page += "<tr><td><a href=\"../results/" + path[i] + "\">" + path[i] + "</a></td></tr>";
                 }
-                cb(undefined, page);
+                callb(undefined, page);
             }
         }
     )
 };
-exports.addDocument = function(path, contents, cb) {
+exports.addDocument = function(path, contents, callb) {
 
 
 
@@ -167,11 +167,11 @@ exports.addDocument = function(path, contents, cb) {
     client.add(path, contents, function(err, data) {
         if (err) {
             console.log('validate error ' + err);
-            cb(err);
+            callb(err);
             return;
         }
-        //console.log('added ' + path);
-        cb(undefined, data);
+        console.log('added ' + data);
+        callb(undefined, data);
     });
 
 };

@@ -1,21 +1,44 @@
-extends ../node_modules/jade-bootstrap/layouts/blog
+extends ../node_modules/jade-bootstrap/layouts/carousel
 
 block body
- +navbar("Colenso Project", "dropdown_menu")
-  +nav_item("/") Home 
-  +nav_item("/") Browse 
-  +nav_item("/results","active") Results
-  +nav_item_dropdown("/search")(label = "Search")
-   +nav_item("/search") Search
-   +nav_item("/xquery") XQuery
-   +nav_item("/xpath") XPath
-
+  .navbar-wrapper
+    .container
+      nav.navbar.navbar-inverse.navbar-static-top
+        .container
+          .navbar-header
+            button(type="button" ,class="navbar-toggle collapsed", data-toggle="collapse", data-target="#navbar" ,aria-expanded="false", aria-controls="navbar")
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            
+            a(class="navbar-brand", href="/" ) Colenso Project
+          #navbar.navbar-collapse.collapse
+            ul.nav.navbar-nav
+              li
+                a(href="/") Home
+              li.active
+                a(href="/browse") Browse
+              li
+                a(href="/admin") Admin
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+                  | Search 
+                  span.caret
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/search') Search
+                  li
+                    a(href='/xpath') XPath
+                  li
+                    a(href='/xquery') XQuery
+                    // START THE FEATURETTES
   
- block content
-   +a-btn-primary("download") Download
-   +a-btn-primary("edit") Edit
-   .container
-    h1 Results
+    .container
+      +a-btn-primary("download") Download
+      +a-btn-primary("edit") Edit
+      .container
+        h1 Results
     
 
- !{doc}
+        !{doc}
