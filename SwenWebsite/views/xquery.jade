@@ -1,31 +1,66 @@
-extends ../node_modules/jade-bootstrap/layouts/blog
+extends ../node_modules/jade-bootstrap/layouts/carousel
 
 block body
- +navbar("Colenso Project", "dropdown_menu")
-  +nav_item("/") Home  
-  +nav_item("/browse") Browse
-  +nav_item_dropdown("/search","active")(label = "Search")
-   +nav_item("/search") Search
-   +nav_item("/xquery","active") XQuery
-   +nav_item("/xpath") XPath
- 
- .container
-   h1= 'Enter your required xquery search'
-   form(method='get', action='/xquery/query')
-    input(type='text', name='xquery')
-    |     
-    input(type='submit')
-  
-  .container
-   p| Welcome to #{title}. Please enter a search to begin
-   p (please be patient i am slow)
- .container
-  h2 Search Results
-   +progress-bar(0)
-  .result  
-  
+  .navbar-wrapper
+    .container
+      nav.navbar.navbar-inverse.navbar-static-top
+        .container
+          .navbar-header
+            button(type="button" ,class="navbar-toggle collapsed", data-toggle="collapse", data-target="#navbar" ,aria-expanded="false", aria-controls="navbar")
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            
+            a(class="navbar-brand", href="/" ) Colenso Project
+          #navbar.navbar-collapse.collapse
+            ul.nav.navbar-nav
+              li
+                a(href="/") Home
+              li
+                a(href="/browse") Browse
+              li
+                a(href="/admin") Admin
+              li.dropdown.active
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+                  | Search 
+                  span.caret
+                ul.dropdown-menu(role='menu')
+                  li
+                    a(href='/search') Search
+                  li
+                    a(href='/xpath') XPath
+                  li.active
+                    a(href='/xquery') XQuery
 
-   #{valueofquery}
+ 
+    .container
+          h1= 'Enter your required xquery search'
+          form(method='get', action='/xquery/query')
+            input(type='text', name='xquery')
+            |     
+            input(type='submit')
+            p (Please be patient - this is slow) 
+  
+    .container
+  
+      h2 Search Results
+        #{valueofquery}   
+      footer
+    
+      <p align = "center">
+      | © 2016 Mitchell Coad Swen303 Assignment 1
+      |  ·
+      <p align = "center">
+      a(href='/') Home
+      |  · 
+      a(href='/browse') browse
+      |  · 
+      a(href='/admin') Admin
+
+
+
+  
 
 
   
