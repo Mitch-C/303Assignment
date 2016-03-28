@@ -127,38 +127,34 @@ exports.browseDatabase = function(quer, cb) {
     client.execute("LIST Colenso",
         function(error, result) {
             if (error) {} else {
-                //console.log(result.result);               
+
                 index = 0;
                 path = [];
-                pathTemp = "";
+                pathtemp = "";
                 while (result.result.length > index) {
                     if (result.result.charAt(index) == " ") {
-                        if  pathTemp.charA    pathTemp.length - 1) == 'l' &   pathTemp.charA pathTemp.length - 2) == 'm' &    pathTemp.charA  pathTemp.length - 3) == 'x' & pathTemp.charA   pathTemp.length - 4) == '.') {
-                            path.pus    pathTemp);
-                            // console.log("current path"   pathTemp)
+                        if (pathtemp.charAt(pathtemp.length - 1) == 'l' && pathtemp.charAt(pathtemp.length - 2) == 'm' && pathtemp.charAt(pathtemp.length - 3) == 'x' && pathtemp.charAt(pathtemp.length - 4) == '.') {
+                            path.push(pathtemp);
                         }
-                        pathTemp = "";
+                        pathtemp = "";
                     } else {
-                        pathTemp += result.result.charAt(index);
+                        pathtemp += result.result.charAt(index);
                     }
                     index++;
                 }
-                path[0] = path[0].replace(/(-{3,})/gm, ""); 
-                for (i = 0; i < path.length; i++) 
-                {
-                    //path[i] = path[i].replace(/(\r\n|\n|\r)/gm, ""); 
+                path[0] = path[0].replace(/(-{3,})/gm, "");
+                for (i = 0; i < path.length; i++) {
+
                     path[i] = path[i].replace('.xml', '/');
                 }
-   
-                page_data = ""; //variable to store the html to be rendered
-               page_data += "<table class=\"table-striped\">";
-                //page_data += "<thead><tr><th>File</th></tr></thead><tbody>"; 
+
+                page = "";
+                page += "<table class=\"table-striped\">";
                 for (i = 0; i < path.length; i++) {
                     //add href link
-                    page_data += "<tr><td><a href=\"../results/" + path[i] + "\">" + path[i] + "</a></td></tr>"; 
+                    page += "<tr><td><a href=\"../results/" + path[i] + "\">" + path[i] + "</a></td></tr>";
                 }
-                //page_data += "</tbody></table>";
-                cb(undefined, page_data);
+                cb(undefined, page);
             }
         }
     )
