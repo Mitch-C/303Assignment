@@ -14,7 +14,7 @@ router.get('/*/download', function(req, res, next) {
 
     basex.getDocument(url, function(err, doc) {
         if (err) console.log(err);
-        var name = 'buyyourbike.xml'
+        var name = url
         res.setHeader('Content-disposition', 'attachment; filename=' + name);
         res.setHeader('Content-type', 'text/xml');
         res.write(doc, 'utf-8');
