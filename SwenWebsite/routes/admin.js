@@ -13,29 +13,5 @@ router.get('/', function(req, res, next) {
     });
 });
 
-router.post('/new', upload.single('newDoc'), function(req, res, next) {
-    var path = req.body.path;
-    fs.readFile(req.file.path, function(err, data) {
-        if (err) {
-            console.log(err);
-              console.log("ERROR ADDING FILE :" +err);
-            req.session.error = err;
-            res.redirect('/admin');
-            return;
-        }
-        basex.addDocument(path, data, function(err, data) {
-            if (err) {
-                console.log(err);
-                //req.session.error = err;
-                console.log("ERROR ADDING FILE :" +err);
-                res.redirect('/admin');
-                return;
-            }
-            // console.log(data);
-            fs.unlinkSync(req.file.path);
-            res.redirect('/browse');
-        });
-    });
-});
 
 module.exports = router;

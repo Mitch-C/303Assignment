@@ -1,14 +1,14 @@
 var basex = require('basex');
 var cheerio = require('cheerio');
 var _ = require('underscore');
-var progressBarVal = 0;
-var fs = require('fs');
+
+
 var client = new basex.Session("127.0.0.1", 1984, "admin", "admin");
 
 // list of queries to be performed 
-//query for search
 
 
+//allow for the use of logical operators
 function logicalOperator(q) {
     q = q.replace(/'/, "\\'");
     q = "'" + q + "'";
@@ -19,6 +19,8 @@ function logicalOperator(q) {
     console.log("query with logic removed" + q);
     return q;
 }
+
+//query for search
 exports.search = function(query, callb) {
     // console.log("is it removing properly " +query )
     // query = logicalOperator(query)
@@ -55,9 +57,9 @@ exports.search = function(query, callb) {
 exports.searchXPath = function(query, callb) {
     console.log("xpath query:" + query)
     var myquery =
-        "for $hit in collection('colenso')\n" +
-        "where $hit" + query + "\n" +
-        "return <li path='{ db:path($hit) }' title='{ $hit//*:title }'> { $hit" + query + "} </li>";
+        "for $x in collection('colenso')\n" +
+        "where $x" + query + "\n" +
+        "return <li path='{ db:path($x) }' title='{ $x//*:title }'> { $x" + query + "} </li>";
     client.execute("XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0';\n <result> { " + myquery + " } </result> ",
         function(err, data) {
             if (err) {
@@ -87,9 +89,7 @@ exports.getDocument = function(path, callb) {
             callb(undefined, data.result);
         });
 };
-exports.searchRecord = function(query, type, callb) {
 
-};
 exports.XQuery = function(query, callb) {
     client.execute("XQUERY " + query,
         function(err, data) {
@@ -158,20 +158,4 @@ exports.browseDatabase = function(quer, callb) {
             }
         }
     )
-};
-exports.addDocument = function(path, contents, callb) {
-
-
-
-    client.execute('open colenso');
-    client.add(path, contents, function(err, data) {
-        if (err) {
-            console.log('validate error ' + err);
-            callb(err);
-            return;
-        }
-        console.log('added ' + data);
-        callb(undefined, data);
-    });
-
 };
