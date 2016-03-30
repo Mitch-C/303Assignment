@@ -1,8 +1,10 @@
-To start Website:
 
-- start database:  basex/bin/basexserver -d -c"CREATE DATABASE Colenso ./Colenso"
 
--start website: swenwebsite/ nodemon or swenwebsite/ npm start
+- start database: 
+ basex/bin/basexserver -d -c"CREATE DATABASE Colenso ./Colenso"
+
+-start website:
+ swenwebsite/ nodemon or swenwebsite/ npm start
 
 
 GitRepository : https://github.com/Mitch-C/303Assignment

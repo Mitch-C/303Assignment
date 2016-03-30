@@ -55,11 +55,12 @@ exports.search = function(query, callb) {
 };
 //query for xpath search
 exports.searchXPath = function(query, callb) {
+
     console.log("xpath query:" + query)
     var myquery =
-        "for $x in collection('colenso')\n" +
-        "where $x" + query + "\n" +
-        "return <li path='{ db:path($x) }' title='{ $x//*:title }'> { $x" + query + "} </li>";
+        "for $hit in collection('colenso')\n" +
+        "where $hit" + query + "\n" +
+        "return <li path='{ db:path($hit) }' title='{ $hit//*:title }'> { $hit" + query + "} </li>";
     client.execute("XQUERY declare default element namespace 'http://www.tei-c.org/ns/1.0';\n <result> { " + myquery + " } </result> ",
         function(err, data) {
             if (err) {
@@ -75,6 +76,7 @@ exports.searchXPath = function(query, callb) {
                     path: cher(this).attr('path')
                 };
             });
+            console.log('')
             callb(undefined, querylist);
         });
 };
