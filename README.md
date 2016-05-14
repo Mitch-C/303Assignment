@@ -1,2 +1,1 @@
-# 303Assignment
-Swen303 Colenso Project
+#Swen303 Colenso Project
